@@ -1,0 +1,1392 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* ===== Top Bar ===== */
+.top-bar {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px 20px;
+  background-color: #f5f5f5;
+  position: relative;
+  gap: 236px; /* DESKTOP spacing */
+}
+
+/* ===== Logo ===== */
+.company-logo .logo {
+  max-width: 138.5px;
+  height: auto;
+  cursor: pointer;
+  margin-left: -10px;
+}
+
+/* ===== Main Menu ===== */
+.main-menu ul {
+  list-style: none;
+  display: flex;
+  gap: 18px;
+  padding: 0;
+  margin: 0;
+  font-family: Open Sans, sans-serif;
+  font-size: 16px;
+}
+
+.main-menu li {
+  display: flex;
+  align-items: center;
+  gap: 34px;
+}
+
+.main-menu li:not(:last-child)::after {
+  content: "|";
+  color: rgb(0, 0, 0);
+  margin-right: 12px;
+}
+
+.main-menu a {
+  text-decoration: none;
+  font-weight: 700;
+  color: rgb(2, 102, 2);
+  cursor: pointer;
+}
+
+.main-menu a.home-link {
+  color: rgb(230, 25, 10);
+}
+
+.main-menu a:hover {
+  color: rgb(0, 0, 255);
+}
+.main-menu a:active {
+  color: yellow;
+}
+
+/* Contact Button */
+.main-menu a.contact-us-here-button {
+  background-color: rgb(230, 25, 10);
+  color: white;
+  padding: 19px 19px;
+  border: none;
+  transition: opacity 0.15s;
+  cursor: pointer;
+  font-size: 14px;
+}
+.main-menu a.contact-us-here-button:hover {
+  opacity: 0.5;
+}
+.main-menu a.contact-us-here-button:active {
+  opacity: 0.3;
+}
+
+/* ===== Hamburger Button ===== */
+.hamburger {
+  display: none;
+  font-size: 28px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* ===== MOBILE RESPONSIVE FIXES ===== */
+@media screen and (max-width: 768px) {
+
+  /* Fix header spacing */
+  .top-bar {
+    gap: 20px;        /* reduce from 236px → prevents scattering */
+    justify-content: space-between;
+    padding: 15px 15px;
+  }
+
+  .company-logo .logo {
+    max-width: 110px; /* Prevent logo from pushing layout */
+    margin-left: 0;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .main-menu {
+    position: absolute;
+    top: 70px;
+    right: 0;
+    width: 100%;
+    background-color: #f5f5f5;
+    display: none;
+    flex-direction: column;
+    text-align: center;
+    padding: 15px 0;
+    border-top: 1px solid #ddd;
+    z-index: 999;
+  }
+
+  .main-menu.open {
+    display: flex;
+  }
+
+  .main-menu ul {
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  .main-menu li {
+    gap: 0;
+  }
+
+  .main-menu li:not(:last-child)::after {
+    content: "";
+  }
+
+  /* Ensure contact button doesn't overflow */
+  .main-menu a.contact-us-here-button {
+    width: 85%;
+    margin: auto;
+    display: block;
+    padding: 15px 0;
+  }
+}
+
+
+/* ===== Slider Styles ===== */
+/* ===== Slider (Fade Effect) ===== */
+.slider {
+  width: 100%;
+  height: 550px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Badge top-right */
+.badge {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 20;
+}
+
+.badge img {
+  width: 140px;
+  height: auto;
+}
+
+/* All slides stacked */
+.slides {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+/* Hide all slides initially */
+.slide {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+/* Show only the active slide */
+.slide.active {
+  opacity: 1;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  object-position: top; 
+}
+.decorative-pattern {
+  width: 100%;
+  height: 20px; /* the middle slice you want visible */
+  background-image: url('images/pattern.png');
+  background-repeat: repeat-x;
+  background-size: cover; 
+  background-position: center; /* keeps the middle visible */
+  overflow: hidden;
+  pointer-events: none;
+
+
+
+}
+
+
+.cleaning-company {
+  color:rgb(227, 228, 227);
+  font-size: 30px;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+  margin-left: 87px;
+  line-height: 29px
+ 
+  
+}
+
+.read-more {
+  position: relative;
+  display: inline-block;
+  background-color: rgb(230, 25, 10); /* red button */
+  color: white;
+  border-radius: 30px;
+  font-size: 18px;
+  padding: 20px 75px 20px 32px; /* extra left padding for circle */
+  margin-left: 87px;
+  margin-top: -12px;
+  padding-left: 39px;
+  text-decoration: none;
+  z-index: 9999;
+  position: relative;
+  font-family: Roboto, sans-serif;
+  transition: background-color 0.15;
+  
+
+  
+  }
+  .read-more:hover {
+    background-color: green;  
+  }
+
+  .read-more:active {
+    transform: scale(1.5);
+  }
+
+
+.arrow-circle {
+  position: absolute;
+  right: 20px;                   /* distance from left edge */
+  top: 50%;                     /* vertically center */
+  transform: translateY(-50%);
+  width: 14px;                   /* circle size */
+  height: 14px;
+  border-radius: 50%;
+  border: 2px solid white;       /* white circular outline */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;                  /* arrow color */
+  font-size: 12px;
+  font-weight: bold;
+  margin-right: 27px;
+}
+
+
+/* === Slide Up Animation (Text + Button) === */
+.hero-text,
+.hero-button {
+  position: relative;
+  bottom: 280px;
+  transform: translateY(210px); /* start low */
+  opacity: 0;
+  transition: transform 0.8s ease-out, opacity 0.8s ease-out;
+}
+
+/* When activated */
+.animate-up {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+
+.badge-overlay {
+  position: absolute;        /* overlay on top of slides */
+  bottom: 10%;               /* 10% from bottom of carousel */
+  right: 5%;                 /* 5% from right edge */
+  width: 100px;              /* adjust size as needed */
+  height: 100px;
+  z-index: 10;
+  margin-bottom: 30px;
+  margin-right: 105px;                /* on top of slides */
+}
+
+.badge-text tspan:first-child {
+  font-size: 26px; /* ESTABLISHED */
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight:lighter;
+}
+
+.badge-text tspan:last-child {
+  font-size: 98px; /* 1958 */
+  font-family: Rubik, sans-serif;
+
+}
+
+.badge-overlay svg {
+  width: 100%;
+  height: 100%;
+  fill: green;               /* badge color */
+}
+
+
+.badge-wrapper {
+  position: relative;
+  display: inline-block;
+  transform: scale(1.8);
+  transform-origin: center center;
+}
+
+.ribbon-left,
+.ribbon-right {
+  width: 0;
+  height: 0;
+  position: absolute;
+  bottom: -35px; /* move below rectangle */
+}
+
+/* Left triangle — vertical side aligned with left rectangle edge */
+.ribbon-left {
+  left: 22px;
+  border-left: 57px solid green;  /* vertical side */
+  border-bottom: 25px solid transparent; /* horizontal side */
+  margin-bottom: 20px;
+  clip-path: polygon(0 0, 100% 0, 0 100%); /* trianle shape */
+  border-bottom-left-radius: 8px /* rounds the tip (adjust 8px as needed) */
+}
+
+/* Right triangle — vertical side aligned with right rectangle edge */
+.ribbon-right {
+  right: 22px;
+  border-right: 57px solid green;  /* vertical side */
+  border-bottom: 25px solid transparent; /* horizontal side */
+  margin-bottom: 20px;
+  clip-path: polygon(100% 0, 0 100% 100%, 0 100%);
+  border-bottom-right-radius: 8px;/* rounds the tip (adjust 8px as needed) */
+}
+
+
+@keyframes shake-grow {
+  0%   { transform: translate(0, 0) scale(1); }
+  10%  { transform: translate(-2px, -2px) scale(2); }
+  20%  { transform: translate(2px, -2px) scale(2); }
+  30%  { transform: translate(-2px, 2px) scale(2); }
+  40%  { transform: translate(2px, 2px) scale(2); }
+  50%  { transform: translate(-1px, -1px) scale(2); }
+  60%  { transform: translate(1px, 1px) scale(2); }
+  70%  { transform: translate(-1px, 0px) scale(2); }
+  80%  { transform: translate(1px, 0px) scale(2); }
+  90%  { transform: translate(0px, 1px) scale(2); }
+  100% { transform: translate(0, 0) scale(2); }
+}
+
+.badge-wrapper:hover {
+  animation: shake-grow 0.8s ease-in-out;
+  cursor: pointer;
+}
+
+.house-hold-name {
+  color: rgb(122, 122, 122);
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  width: 340px;
+  line-height: 25px;
+  margin-left: 87px;
+  margin-top: -60px;
+}
+
+.second-read-more {
+  position: relative;
+  display: inline-block;
+  background-color: rgb(230, 25, 10); /* red button */
+  color: white;
+  border-radius: 30px;
+  font-size: 16px;
+  padding: 13px 61px 13px 27px; /* extra left padding for circle */
+  margin-left: 87px;
+  margin-top: 60px;
+  text-decoration: none;
+  z-index: 9999;
+  font-family: Roboto, sans-serif;
+  transition: background-color 0.15;
+
+  
+  }
+  .second-read-more:hover {
+    background-color: green;  
+  }
+
+  .second-read-more:active {
+    transform: scale(1.5);
+  }
+
+.second-arrow-circle {
+  position: absolute;
+  right: 4px;                   /* distance from left edge */
+  top: 50%;                     /* vertically center */
+  transform: translateY(-50%);
+  width: 14px;                   /* circle size */
+  height: 14px;
+  border-radius: 50%;
+  border: 2px solid white;       /* white circular outline */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;                  /* arrow color */
+  font-size: 12px;
+  font-weight: bold;
+  margin-right: 27px;
+}
+
+
+.moveable-image {
+  position: relative;  /* allows free movement */
+  top: -308px;           /* adjust vertical position */
+  left: 647px;          /* adjust horizontal position */
+  width: auto;         /* container width (optional) */
+  height: auto;        /* container height (optional) */
+  cursor: move;        /* optional: shows move cursor */
+}
+
+.moveable-image img {
+  width: 575px;        /* set your desired width */
+  height: 345px;       /* set your desired height */
+  object-fit: cover;   /* maintain aspect ratio or fill */
+}
+
+
+.full-screen-image {
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  position: relative;   /* VERY IMPORTANT */
+}
+
+.full-screen-image img.bg-image {
+  width: 100%;
+  height: 1240px;
+  display: block;
+  object-fit: cover;
+  object-position: top;
+  margin-top: -200px;
+  opacity: 0.1;
+}
+
+
+/* Overlay image styling */
+.overlay-image {
+  position: absolute;
+  top: 85px;      /* move down */
+  left: 85px;     /* move right */
+  width: 525px;   /* control size */
+  height: auto;
+  z-index: 20;    /* sit above background */
+  cursor: move;
+}
+
+.overlay-overview {
+  position: absolute;
+  top: 85px;
+  left: 710px;
+  z-index: 20;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:21px;
+  font-weight: 700;
+  color: rgb(36, 34, 34);
+}
+
+
+/* overlay paragraph styling */
+.overlay-paragraph {
+  position: absolute;
+  left: 710px;
+  z-index: 20;
+  color: rgb(122, 122, 122);
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 33.6px;
+  top: 110px; 
+
+}
+  .overlay-paragraph-two {
+  position: absolute;
+  top: 300px;
+  left: 710px;
+  z-index: 20;
+  color: rgb(122, 122, 122);
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 33.6px;  
+}
+
+
+.third-read-more {
+  position: absolute;
+  display: inline-block;
+  background-color: rgb(230, 25, 10); /* red button */
+  color: white;
+  border-radius: 30px;
+  font-size: 16px;
+  padding: 13px 27px 13px 27px; /* extra left padding for circle */
+  z-index: 20;
+  font-family: Roboto, sans-serif;
+  transition: background-color 0.15;
+  left: 1155px;
+  top: 600px;
+  text-decoration: none;
+  cursor: pointer;
+  
+  }
+  .third-read-more:hover {
+    background-color: green;  
+  }
+
+  .third-read-more:active {
+    transform: scale(1.5);
+  }
+
+
+  .overlay-paragraph-three {
+  position: absolute;
+  top: 670px;
+  left: 150px;
+  z-index: 30;
+  color: rgb(122, 122, 122);
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 33.6px;
+  width: 500px;
+  }
+
+
+  .overlay-heading-two {
+  position: absolute;
+  top: 850px;
+  left: 140px;
+  z-index: 20;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:20px;
+  font-weight: 800;
+  color: rgba(44, 44, 45, 0.96);
+}
+
+
+.unordered-list {
+  position: absolute;
+  top: 900px;
+  left: 100px;
+  z-index: 20;
+  font-family: Open Sans, sans-serif; 
+  font-size: 16px;
+  font-weight: 700;
+  color: rgb(84, 89, 95);
+  line-height: 31px;
+  list-style: none;
+  cursor: pointer;
+}
+
+.unordered-list li::before {
+content:  "\2714";
+color: red;
+margin-right: 10px;
+font-size: 1.2em;
+}
+
+.unordered-list li:hover::before  {
+  color: blue;
+}
+
+
+/* Video container */
+.video-container {
+  top: 680px;
+  left: 735px;
+  position: absolute;
+  width: 560px;
+  height: 485px;
+  border-radius: 20px;
+  background: black;
+  overflow: hidden;
+  z-index: 20;
+}
+
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* BOTTOM CONTROL BAR */
+.control-bar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  padding: 0 8px;
+}
+
+.control-btn {
+  color: white;
+  background: none;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.control-btn:hover {
+  opacity: 0.7;
+}
+
+.spacer {
+  flex: 1;
+}
+
+/* TOP BLACK BAR */
+.top-black {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 70px;
+  background: black;
+}
+
+/* MENU DROPDOWN */
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  bottom: 45px;
+  right: 0;
+  background: rgba(0,0,0,0.9);
+  border: 1px solid #333;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.dropdown-content .menu-item,
+.dropdown-content .pip-btn {
+  display: block;
+  width: 100%;
+  background: none;
+  border: none;
+  color: white;
+  text-align: left;
+  padding: 6px;
+  cursor: pointer;
+}
+
+.dropdown-content button:hover {
+  background: rgba(255,255,255,0.15);
+}
+
+.dropdown.show .dropdown-content {
+  display: block;
+}
+
+
+/* Progress container*/
+.progress-container {
+  position: absolute;
+  width: 100%;
+  flex: 2;
+  display: flex;
+  align-items: center;
+}
+
+/* Track */
+#progressBar {
+  -webkit-appearance: none; /* for Chrome/Safari */
+  -moz-appearance: none;    /* for Firefox */
+  appearance: none;          /* standard fallback */
+  width: 100%;
+  height: 3px;
+  background: rgba(255,255,255,0.3);
+  border-radius: 5px;
+  position: absolute;
+  z-index: 2;
+  cursor: pointer;
+  margin-bottom: 50px;
+
+}
+
+#progressBar::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: white;
+  cursor: pointer;
+  margin-top: -0.1px; /* center thumb on bar */
+  
+}
+
+#progressBar::-moz-range-thumb {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: white;
+  cursor: pointer;
+  border: none;
+}
+
+
+/* Filled portion of the track */
+.progress-filled {
+  position: absolute;
+
+  height: 3px;
+  width: 100%;
+  background: rgb(172, 172, 243);
+  border-radius: 5px;
+  z-index: 2;
+  margin-bottom: 47px;
+}
+
+
+.fourth-read-more {
+  position: absolute;
+  display: inline-block;
+  background-color: rgb(230, 25, 10); /* red button */
+  color: white;
+  border-radius: 30px;
+  font-size: 15px;
+  padding: 11px 28px 11px 26px; /* extra left padding for circle */
+  z-index: 20;
+  font-family: Roboto, sans-serif;
+  transition: background-color 0.15;
+  left: 130px;
+  top: 1102px;
+  text-decoration: none;
+  cursor: pointer;
+  
+  }
+  .fourth-read-more:hover {
+    background-color: green;  
+  }
+
+  .fourth-read-more:active {
+    transform: scale(1.5);
+  }
+
+  .fourth-read-more::after {
+    content: "\25B6"; /* Unicode for white right-pointing triangle */
+  /* Optional styling for positioning and appearance */
+    display: inline-block;
+    position: relative;
+    top: -1px;
+    margin-left: 12px;
+    font-size: 0.5em; /* Adjust size as needed */
+    color: white; /* Adjust color as needed */
+}
+
+
+.image-wrapper {
+  position: relative;          /* Needed for overlay positioning */
+  width: 100vw;
+  height: 130px;
+  overflow: hidden;            /* Ensures overlay doesn’t spill */
+}
+
+.short-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+}
+
+/* The dark overlay */
+.image-wrapper::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8); /* 0.5 = 50% opacity */
+}
+
+.short-paragraph {
+  position: absolute;
+  top: 32px;
+  left: 300px; 
+  font-family: Roboto, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  z-index: 20;
+}
+
+
+.read-copy{
+  position: absolute;
+  display: inline-block;
+  background-color: rgb(255, 0, 0); /* red button */
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 14px 28px 14px 20px; /* extra left padding for circle */
+  z-index: 20;
+  font-family: Roboto, sans-serif;
+  transition: background-color 0.15;
+  left: 727px;
+  top: 40px;
+  text-decoration: none;
+  cursor: pointer;
+  
+  }
+  .read-copy:hover {
+    background-color: green;  
+  }
+
+  .read-copy:active {
+    transform: scale(1.5);
+  }
+
+  .read-copy::before {
+    content: "\01F441"; 
+  /* Optional styling for positioning and appearance */
+    display: inline-block;
+    position: relative;
+    top: 1px;
+    margin-left: 8px;
+    font-family: "Font Awesome 5 Free";
+    font-size: 15px; /* Adjust size as needed */
+    color: white; /* Adjust color as needed */
+    font-variant-alternates: normal;
+    font-variant-caps: normal;
+    font-variant-emoji: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-variant-position: normal;
+    font-weight: 400;
+  }
+
+  .new-paragraph {
+    color: rgb (10, 10, 10);
+    display: block;
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    font-weight: 600;   
+    margin-left: 70px;
+    margin-top: 70px;
+}
+
+
+.left-image {
+  position: relative;  /* allows free movement */
+  top: 45px;         /* adjust vertical position */
+  left: 70px;          /* adjust horizontal position */
+  width: 350px;         /* container width (optional) */
+  height: auto;        /* container height (optional) */
+  cursor: move;        /* optional: shows move cursor */
+}
+
+
+.middle-image {
+  position: relative;  /* allows free movement */
+  top: 45px;           /* adjust vertical position */
+  left: 140px;          /* adjust horizontal position */
+  width: 360px;         /* container width (optional) */
+  height: auto;        /* container height (optional) */
+  cursor: move;   
+} 
+
+ .slide-image {
+  position: relative;  /* allows free movement */
+  top: 45px;           /* adjust vertical position */
+  left: 215px;          /* adjust horizontal position */
+  width: 355px;         /* container width (optional) */
+  height: auto;        /* container height (optional) */
+  cursor: move;   
+}
+
+
+.paragraph-container {
+display: flex;
+gap: 40px;
+flex-wrap: wrap;
+}
+
+.paragraph-item {
+  display: flex;
+  flex-direction: column; /* Stack paragraph and date vertically */
+  gap: 0px;
+}
+
+.honoring-paragraph,
+.retiring-paragraph,
+.evolution-paragraph {
+  color: rgb(84, 89, 95);
+  font-family: Roboto, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 70px;
+  margin-top: 300px;
+  width: 400px;
+  margin-right: 0;
+  margin-left: 0;
+
+}
+
+.honoring-paragraph {
+  margin-left: 70px;
+}
+.evolution-paragraph {
+  width: 370px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+
+.date {
+  color: rgb(173, 173, 173);
+  font-size: 20px;
+  font-weight: 500px;
+  margin-top: -20px;
+  
+}
+
+.date-one {
+  color: rgb(173, 173, 173);
+  font-size: 20px;
+  font-weight: 500px;
+  margin-left: 70px;
+  margin-top: -20px;;
+}
+
+.green-read-more {
+  color: rgb(97, 206, 112);
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.green-read {
+  color: rgb(97, 206, 112);
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: Roboto, sans-serif;
+  margin-left: 70px;
+  text-decoration: none;
+} 
+
+
+.big-paragraph {
+  color: rgb(64, 64, 65);
+  display: block;
+  font-family: Roboto, sans-serif;
+  font-size: 31px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 250px;
+ 
+}
+
+
+.pagination {
+  display: flex;
+  justify-content: flex-end;
+  gap: 4px;
+  margin-top: 75px;
+  flex-wrap: wrap;
+}
+.pagination a, .pagination span {
+  padding: 8px 12px;
+  gap: 2px;
+  border: 1px solid #8f7373;
+  color: red;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 500;
+}
+
+.pagination a:hover {
+  background: #eee;
+}
+
+.pagination a.active {
+  color:black;
+  font-weight: bold;
+  border-color: black;
+}
+
+.pagination a:active {
+  background: green;
+  color: white;
+}
+
+.pagination span{
+  color: black;
+}
+
+
+.contact-form-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.contact-form-container label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.contact-form-container input,
+.contact-form-container textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.contact-form-container textarea {
+  resize: vertical;
+  height: 170px;
+}
+
+.char-counter {
+  text-align: right;
+  font-size: 12px;
+  color: #888;
+  margin-top: 2px;
+}
+
+/* Fake reCAPTCHA */
+.fake-recaptcha {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid #d3d3d3;
+  padding: 10px;
+  border-radius: 4px;
+  background: #f8f8f8;
+  margin-top: 15px;
+  flex-wrap: wrap;
+}
+
+.fake-recaptcha input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+}
+
+.fake-recaptcha-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 10px;
+  color: #888;
+}
+
+.fake-recaptcha-logo img {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 2px;
+  position: relative;
+  left: 950px;
+}
+
+.fake-recaptcha-logo a {
+  color: #888;
+  text-decoration: none;
+  font-size: 9px;
+}
+
+
+.recaptcha-right {
+  position: relative;
+  left: 950px;
+}
+
+/* Submit Button */
+.submit-btn {
+  margin-top: 15px;
+  padding: 10px 15px;
+  background-color: #28a745;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.submit-btn:hover {
+  background-color: #218838;
+}
+
+/* Responsive for mobile */
+@media(max-width: 600px) {
+  .fake-recaptcha {
+    transform: scale(0.9);
+  }
+}
+
+
+
+.image-row {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-left: 57px;
+  margin-top: 200px;
+}
+
+.image-row img {
+  width: 200px;
+  height:auto
+}
+
+@media (max-width: 600px) {
+.image-row img {
+  width: 120px;
+}
+
+}
+
+.decorative-pattern-two {
+  width: 100%;
+  height: 100px; /* the middle slice you want visible */
+  background-image: url('images/pattern.png');
+  background-repeat: repeat-x;
+  background-size: cover; 
+  background-position: center; /* keeps the middle visible */
+  overflow: hidden;
+  pointer-events: none;
+  position: relative;
+  top: 45px;
+
+
+
+}
+
+
+.last-image-wrapper {
+  position: relative;          /* Needed for overlay positioning */
+  width: 100%;
+  height: 420px;
+  overflow: hidden; 
+  top: -25px;          /* Ensures overlay doesn’t spill */
+  
+
+}
+
+.last-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  z-index: 5;
+}
+
+/* The dark overlay */
+.last-image-wrapper::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.85); /* 0.5 = 50% opacity */
+}
+
+.cover-all {
+display: flex;
+font-family: Open Sans, sans-serif;
+z-index: 20;
+gap: 35px;
+font-size: 14px;
+font-weight: 400;
+color: white;
+position: absolute;
+top: 10%;
+left: 20%;
+}
+
+.company-logo-two .logo-two {
+  max-width: 138.5px;
+  height: auto;
+  cursor: pointer;
+  position: relative;
+  top: 40px;
+  left: -215px;
+  z-index: 20;
+}
+
+.first-list {
+  font-family: Open Sans, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 40px;
+  z-index: 20;
+}
+
+.first-list li:hover {
+  color: red;
+}
+
+
+.second-list {
+  font-family: Open Sans, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 40px;
+  z-index: 20;
+}
+
+.second-list li:hover {
+color: red;
+}
+
+
+.cover-icons {
+display: flex;
+font-family: Open Sans, sans-serif;
+flex-direction:column;
+z-index: 20;
+gap: 8px;
+font-size: 14px;
+font-weight: 400;
+color: white;
+position: absolute;
+top: 60%;
+left: 4%;
+}
+
+.address {
+  font-size: 14px;
+  color: white;
+  display: flex;
+  z-index: 20;
+  font-family: Open Sans, sans-serif;
+  font-weight: 400;
+}
+
+.map-pin {
+  color: red;          /* color of the location pin */
+  font-size: 20px;     /* size of the pin */
+  margin-right: 18px;   /* space between pin and text */
+  
+
+}
+
+.contact {
+  display: flex;          /* places icon and number side by side */
+  font-size: 14px;
+  color: white;
+  z-index: 20;
+}
+
+.phone-icon {
+  color: green;           /* color of the phone icon */
+  font-size: 20px;        /* size of the icon */
+  margin-right: 18px;      /* space between icon and number */
+}
+
+
+.email {
+  display: flex;
+  font-size: 14px;
+  color: white;
+  z-index: 20;
+}
+
+.email-icon {
+  font-size: 20px;
+  margin-right: 18px;
+  color: #007bff;  /* blue paper plane */
+}
+
+
+.map-wrapper {
+  max-width: 100%;  /* prevents overflow */
+  width: 343px;
+  height: 215px;    /* adjust as needed */
+  border-radius: 20px; /* optional rounded corners */
+  overflow: hidden;     /* hides iframe overflow */
+  position: absolute;
+  z-index: 20;
+  top: 14%;
+  left: 70%;
+}
+
+.map-wrapper iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.hyper-link {
+  font-size: 13px;
+  font-weight: 400;
+  color:rgb(165, 165, 165);
+  font-family: Open Sans, sans-serif;
+  z-index: 20;
+  position: absolute;
+  top: 90%;
+  left: 91%;
+  text-decoration: none;
+  transition: color 0.15s;
+}
+
+.hyper-link:hover {
+  color: white;
+}
+
+.hyper-link:active {
+  color: blue;
+}
+
+.back-to-top {
+  font-size: 13px;
+  font-family: Open Sans, sans-serif;
+  font-weight: 400;
+  position: absolute;
+  z-index: 20;
+  top: 90%;
+  left: 50%;
+  color: grey;
+  text-decoration: none;
+  transition: color 0.15s;
+}
+
+.back-to-top:hover {
+  color: white;
+}
+
+.back-to-top:active {
+  color: burlywood;
+  
+}
+
+
+.scroll-reveal {
+  position: relative;
+  opacity: 0;               /* invisible at first */
+  transform: translateY(50px); /* start 50px lower */
+  transition: all 0.8s ease-out; /* smooth transition */
+}
+.scroll-reveal.active {
+  opacity: 1;               /* fully visible */
+  transform: translateY(0); /* move to original position */
+}
+
+
+
