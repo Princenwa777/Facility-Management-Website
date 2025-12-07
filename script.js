@@ -2,10 +2,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const hamburger = document.querySelector('.hamburger');
   const menu = document.querySelector('.main-menu');
-  const overlay = document.querySelector('.menu-overlay');
   const menuLinks = document.querySelectorAll('.main-menu a');
 
-  if (!hamburger || !menu || !overlay) return;
+  if (!hamburger || !menu) return;
 
   // Prevent clicks inside menu from propagating
   menu.addEventListener('click', e => e.stopPropagation());
@@ -13,14 +12,12 @@ document.addEventListener("DOMContentLoaded", () => {
   // Open menu
   const openMenu = () => {
     menu.classList.add('open');
-    overlay.classList.add('active');
     document.body.style.overflow = 'hidden'; // prevent background scroll
   };
 
   // Close menu
   const closeMenu = () => {
     menu.classList.remove('open');
-    overlay.classList.remove('active');
     document.body.style.overflow = 'auto';
   };
 
@@ -33,8 +30,6 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 
-  // Click overlay closes menu
-  overlay.addEventListener('click', closeMenu);
 
   // Click any link closes menu
   menuLinks.forEach(link => {
@@ -255,5 +250,6 @@ function revealOnScroll() {
 window.addEventListener('scroll', revealOnScroll);
 
 window.addEventListener('load', revealOnScroll); // reveal visible elements on load
+
 
 
