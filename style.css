@@ -3,7 +3,6 @@ html, body {
   padding: 0;
   width: 100%;
   overflow-x: hidden;
-  overflow-y: auto;
 }
 
 html {
@@ -108,7 +107,7 @@ html {
   }
 
   .company-logo .logo {
-    max-width: 110px; /* Prevent logo from pushing layout */
+    max-width: 90px; /* Prevent logo from pushing layout */
     margin-left: 0;
   }
 
@@ -1387,6 +1386,7 @@ left: 4%;
   opacity: 1;               /* fully visible */
   transform: translateY(0); /* move to original position */
 }
+
 
 
 
