@@ -157,7 +157,9 @@ html {
     list-style: none;
   }
 
-
+.main-menu li:not(:last-child)::after {
+    content: "";
+  
   /* Contact button full width */
   .main-menu a.contact-us-here-button {
     width: 100%;
@@ -1398,6 +1400,7 @@ left: 4%;
   opacity: 1;               /* fully visible */
   transform: translateY(0); /* move to original position */
 }
+
 
 
 
