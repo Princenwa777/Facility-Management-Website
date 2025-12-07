@@ -7,28 +7,33 @@ document.addEventListener("DOMContentLoaded", () => {
 
   if (!hamburger || !menu) return;
 
+  // Prevent clicks inside menu from closing it
+  menu.addEventListener('click', e => e.stopPropagation());
+
   // Toggle menu on hamburger click
   hamburger.addEventListener('click', () => {
     menu.classList.toggle('open');
+    // Disable body scroll when menu is open
+    document.body.style.overflow = menu.classList.contains('open') ? 'hidden' : 'auto';
   });
 
   // Close menu when any link is clicked (mobile only)
   menuLinks.forEach(link => {
     link.addEventListener('click', () => {
       menu.classList.remove('open');
+      document.body.style.overflow = 'auto';
     });
   });
 
-  // Close menu if user clicks outside (mobile only)
+  // Close menu if user clicks outside
   document.addEventListener('click', (e) => {
     if (!menu.contains(e.target) && !hamburger.contains(e.target)) {
       menu.classList.remove('open');
+      document.body.style.overflow = 'auto';
     }
   });
 
 });
-
-
 
 // ===== Fade Carousel =====
 const slides = document.querySelectorAll(".slide");
@@ -225,4 +230,5 @@ function revealOnScroll() {
 }
 
 window.addEventListener('scroll', revealOnScroll);
+
 window.addEventListener('load', revealOnScroll); // reveal visible elements on load
