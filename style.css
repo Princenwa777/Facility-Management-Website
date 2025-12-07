@@ -106,6 +106,7 @@ html {
     position: relative; /* ensure stacking context */
     z-index: 10001; /* above main content */
     width: 100%;
+    box-sizing: border-box;
     
 
   }
@@ -1405,6 +1406,7 @@ left: 4%;
   opacity: 1;               /* fully visible */
   transform: translateY(0); /* move to original position */
 }
+
 
 
 
