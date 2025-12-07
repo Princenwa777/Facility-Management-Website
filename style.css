@@ -124,21 +124,7 @@ html {
     position: relative;
   }
 
-  /* Overlay background (blocks content behind menu) */
-  .menu-overlay {
-    display: none;              /* hidden by default */
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background-color: rgba(0,0,0,0.3); /* semi-transparent overlay */
-    z-index: 10003;              /* below hamburger but above page content */
-  }
-
-  .menu-overlay.active {
-    display: block;
-  }
+  
 
   /* Drawer menu */
   .main-menu {
@@ -1412,6 +1398,7 @@ left: 4%;
   opacity: 1;               /* fully visible */
   transform: translateY(0); /* move to original position */
 }
+
 
 
 
