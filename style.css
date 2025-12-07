@@ -380,6 +380,73 @@ html {
   border-bottom-right-radius: 8px;/* rounds the tip (adjust 8px as needed) */
 }
 
+/* ===== Mobile Responsiveness ===== */
+@media screen and (max-width: 768px) {
+
+  .slider {
+    height: 300px;
+    max-width: 100vw; /* prevent horizontal overflow */
+  }
+
+  .cleaning-company {
+    font-size: 20px;
+    margin-left: 4vw;
+    line-height: 24px;
+    max-width: 90vw;
+  }
+
+  .read-more {
+    font-size: 16px;
+    padding: 12px 4vw;
+    margin-left: 4vw;
+    margin-top: 0;
+    max-width: 90vw;
+  }
+
+  .arrow-circle {
+    width: 12px;
+    height: 12px;
+    font-size: 10px;
+    right: 4vw;
+  }
+
+  .badge {
+    top: 10px;
+    right: 4vw;
+  }
+
+  .badge img {
+    width: 80px;
+    height: auto;
+  }
+
+  .badge-overlay {
+    width: 60px;
+    height: 60px;
+    bottom: 6%;
+    right: 3%;
+  }
+
+  .badge-text tspan:first-child {
+    font-size: 16px;
+  }
+
+  .badge-text tspan:last-child {
+    font-size: 50px;
+  }
+
+  .badge-wrapper {
+    transform: scale(1.2);
+  }
+
+  .ribbon-left,
+  .ribbon-right {
+    bottom: -20px;
+    border-left-width: 40px;
+    border-right-width: 40px;
+    border-bottom-width: 15px;
+  }
+}
 
 @keyframes shake-grow {
   0%   { transform: translate(0, 0) scale(1); }
@@ -1406,6 +1473,7 @@ left: 4%;
   opacity: 1;               /* fully visible */
   transform: translateY(0); /* move to original position */
 }
+
 
 
 
