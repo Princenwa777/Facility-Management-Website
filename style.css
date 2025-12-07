@@ -380,8 +380,212 @@ html {
   border-bottom-right-radius: 8px;/* rounds the tip (adjust 8px as needed) */
 }
 
+@media (max-width: 768px) {
+  .slider {
+  width: 100%;
+  height: 600px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Badge top-right */
+.badge {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 20;
+}
+
+.badge img {
+  width: 140px;
+  height: auto;
+}
+
+/* All slides stacked */
+.slides {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+/* Hide all slides initially */
+.slide {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+/* Show only the active slide */
+.slide.active {
+  opacity: 1;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  object-position: top; 
+}
+.decorative-pattern {
+  width: 100%;
+  height: 20px; /* the middle slice you want visible */
+  background-image: url('images/pattern.png');
+  background-repeat: repeat-x;
+  background-size: cover; 
+  background-position: center; /* keeps the middle visible */
+  overflow: hidden;
+  pointer-events: none;
 
 
+
+}
+
+
+.cleaning-company {
+  color:rgb(227, 228, 227);
+  font-size: 30px;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+  margin-left: 87px;
+  line-height: 29px
+ 
+  
+}
+
+.read-more {
+  position: relative;
+  display: inline-block;
+  background-color: rgb(230, 25, 10); /* red button */
+  color: white;
+  border-radius: 30px;
+  font-size: 18px;
+  padding: 20px 75px 20px 32px; /* extra left padding for circle */
+  margin-left: 87px;
+  margin-top: -12px;
+  padding-left: 39px;
+  text-decoration: none;
+  z-index: 9999;
+  position: relative;
+  font-family: Roboto, sans-serif;
+  transition: background-color 0.15;
+  
+
+  
+  }
+  .read-more:hover {
+    background-color: green;  
+  }
+
+  .read-more:active {
+    transform: scale(1.5);
+  }
+
+
+.arrow-circle {
+  position: absolute;
+  right: 20px;                   /* distance from left edge */
+  top: 50%;                     /* vertically center */
+  transform: translateY(-50%);
+  width: 14px;                   /* circle size */
+  height: 14px;
+  border-radius: 50%;
+  border: 2px solid white;       /* white circular outline */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;                  /* arrow color */
+  font-size: 12px;
+  font-weight: bold;
+  margin-right: 27px;
+}
+
+
+/* === Slide Up Animation (Text + Button) === */
+.hero-text,
+.hero-button {
+  position: relative;
+  bottom: 280px;
+  transform: translateY(210px); /* start low */
+  opacity: 0;
+  transition: transform 0.8s ease-out, opacity 0.8s ease-out;
+}
+
+/* When activated */
+.animate-up {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+
+.badge-overlay {
+  position: absolute;        /* overlay on top of slides */
+  bottom: 10%;               /* 10% from bottom of carousel */
+  right: 5%;                 /* 5% from right edge */
+  width: 100px;              /* adjust size as needed */
+  height: 100px;
+  z-index: 10;
+  margin-bottom: 30px;
+  margin-right: 105px;                /* on top of slides */
+}
+
+.badge-text tspan:first-child {
+  font-size: 26px; /* ESTABLISHED */
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight:lighter;
+}
+
+.badge-text tspan:last-child {
+  font-size: 98px; /* 1958 */
+  font-family: Rubik, sans-serif;
+
+}
+
+.badge-overlay svg {
+  width: 100%;
+  height: 100%;
+  fill: green;               /* badge color */
+}
+
+
+.badge-wrapper {
+  position: relative;
+  display: inline-block;
+  transform: scale(1.8);
+  transform-origin: center center;
+}
+
+.ribbon-left,
+.ribbon-right {
+  width: 0;
+  height: 0;
+  position: absolute;
+  bottom: -35px; /* move below rectangle */
+}
+
+/* Left triangle — vertical side aligned with left rectangle edge */
+.ribbon-left {
+  left: 22px;
+  border-left: 57px solid green;  /* vertical side */
+  border-bottom: 25px solid transparent; /* horizontal side */
+  margin-bottom: 20px;
+  clip-path: polygon(0 0, 100% 0, 0 100%); /* trianle shape */
+  border-bottom-left-radius: 8px /* rounds the tip (adjust 8px as needed) */
+}
+
+/* Right triangle — vertical side aligned with right rectangle edge */
+.ribbon-right {
+  right: 22px;
+  border-right: 57px solid green;  /* vertical side */
+  border-bottom: 25px solid transparent; /* horizontal side */
+  margin-bottom: 20px;
+  clip-path: polygon(100% 0, 0 100% 100%, 0 100%);
+  border-bottom-right-radius: 8px;/* rounds the tip (adjust 8px as needed) */
+}
+
+    
+
+    
 @keyframes shake-grow {
   0%   { transform: translate(0, 0) scale(1); }
   10%  { transform: translate(-2px, -2px) scale(2); }
@@ -1407,6 +1611,7 @@ left: 4%;
   opacity: 1;               /* fully visible */
   transform: translateY(0); /* move to original position */
 }
+
 
 
 
