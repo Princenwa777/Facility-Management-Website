@@ -104,7 +104,8 @@ html {
     padding: 15px 20px;
     gap: 0;
     position: relative; /* ensure stacking context */
-    z-index: 10001;      /* above main content */
+    z-index: 10001; /* above main content */
+    max-width: 100%;
   }
 
   .company-logo .logo {
@@ -1402,6 +1403,7 @@ left: 4%;
   opacity: 1;               /* fully visible */
   transform: translateY(0); /* move to original position */
 }
+
 
 
 
