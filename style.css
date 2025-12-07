@@ -91,70 +91,68 @@ html {
 .hamburger {
   display: none;
   font-size: 28px;
-  background: none;
-  border: none;
-  cursor: pointer;
 }
 
-/* ===== MOBILE RESPONSIVE FIXES ===== */
+/* ===== Mobile Slide-In Menu ===== */
 @media screen and (max-width: 768px) {
 
-  /* Fix header spacing */
-  .top-bar {
-    gap: 20px;        /* reduce from 236px → prevents scattering */
-    justify-content: space-between;
-    padding: 15px 15px;
-  }
-
-  .company-logo .logo {
-    max-width: 70px; /* Prevent logo from pushing layout */
-    margin-left: 0;
-  }
-
+  /* Hamburger visible */
   .hamburger {
     display: block;
+    font-size: 32px;
     margin-right: 10px;
-    font-size: 28px;
-    
+    cursor: pointer;
+    background: none;
+    border: none;
   }
 
+  /* Slide-in menu panel */
   .main-menu {
-    position: absolute;
-    top: 70px;
-    right: 0;
-    width: 100%;
+    position: fixed;        /* stays fixed on screen */
+    top: 0;
+    right: -300px;          /* start offscreen */
+    width: 300px;           /* width of menu drawer */
+    height: 100vh;          /* full screen height */
     background-color: #f5f5f5;
-    display: none;
+    display: flex;
     flex-direction: column;
-    text-align: center;
-    padding: 15px 0;
-    border-top: 1px solid #ddd;
+    padding: 60px 20px;     /* space for header + items */
+    box-shadow: -2px 0 10px rgba(0,0,0,0.3);
+    transition: right 0.3s ease-in-out; /* smooth slide */
     z-index: 999;
   }
 
+  /* Open state */
   .main-menu.open {
-    display: flex;
+    right: 0;               /* slide fully into view */
   }
 
+  /* Menu items vertical */
   .main-menu ul {
     flex-direction: column;
-    gap: 14px;
+    gap: 25px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
   }
 
   .main-menu li {
-    gap: 0;
+    display: flex;
+    align-items: center;
   }
 
+  /* Remove dividers on mobile */
   .main-menu li:not(:last-child)::after {
     content: "";
   }
 
-  /* Ensure contact button doesn't overflow */
+  /* Contact button full width */
   .main-menu a.contact-us-here-button {
-    width: 85%;
-    margin: auto;
-    display: block;
+    width: 100%;
+    text-align: center;
     padding: 15px 0;
+    margin-top: 20px;
+    display: block;
   }
 }
 
@@ -1389,6 +1387,7 @@ left: 4%;
   opacity: 1;               /* fully visible */
   transform: translateY(0); /* move to original position */
 }
+
 
 
 
