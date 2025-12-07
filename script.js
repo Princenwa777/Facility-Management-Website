@@ -13,11 +13,10 @@ document.addEventListener("DOMContentLoaded", () => {
   // Toggle menu on hamburger click
   hamburger.addEventListener('click', () => {
     menu.classList.toggle('open');
-    // Disable body scroll when menu is open
     document.body.style.overflow = menu.classList.contains('open') ? 'hidden' : 'auto';
   });
 
-  // Close menu when any link is clicked (mobile only)
+  // Close menu when any link is clicked
   menuLinks.forEach(link => {
     link.addEventListener('click', () => {
       menu.classList.remove('open');
@@ -25,15 +24,40 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
-  // Close menu if user clicks outside
-  document.addEventListener('click', (e) => {
+  // Close menu when clicking outside
+  document.addEventListener('click', e => {
     if (!menu.contains(e.target) && !hamburger.contains(e.target)) {
       menu.classList.remove('open');
       document.body.style.overflow = 'auto';
     }
   });
 
+  // Swipe detection to close menu
+  let startX = null;
+
+  document.addEventListener('touchstart', (e) => {
+    startX = e.touches[0].clientX;
+  });
+
+  document.addEventListener('touchmove', (e) => {
+    if (!startX) return;
+
+    let currentX = e.touches[0].clientX;
+    let diffX = currentX - startX;
+
+    // If menu is open and swipe left
+    if (menu.classList.contains('open') && diffX < -50) {
+      menu.classList.remove('open');
+      document.body.style.overflow = 'auto';
+      startX = null;
+    }
+  });
+
+  document.addEventListener('touchend', () => {
+    startX = null;
+  });
 });
+
 
 // ===== Fade Carousel =====
 const slides = document.querySelectorAll(".slide");
@@ -232,3 +256,4 @@ function revealOnScroll() {
 window.addEventListener('scroll', revealOnScroll);
 
 window.addEventListener('load', revealOnScroll); // reveal visible elements on load
+
