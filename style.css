@@ -141,11 +141,13 @@ html {
     transition: right 0.3s ease-in-out;
     z-index: 10003; /* above overlay */
     overflow-y: auto;
+    pointer-events: none;
   }
 
   /* Open state */
   .main-menu.open {
     right: 0;
+    pointer-events: auto;
   }
 
   /* Menu items vertical */
@@ -1400,6 +1402,7 @@ left: 4%;
   opacity: 1;               /* fully visible */
   transform: translateY(0); /* move to original position */
 }
+
 
 
 
