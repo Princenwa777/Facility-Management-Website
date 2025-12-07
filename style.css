@@ -104,7 +104,7 @@ html {
     padding: 15px 20px;
     gap: 0;
     position: relative; /* ensure stacking context */
-    z-index: 3000;      /* above main content */
+    z-index: 10001;      /* above main content */
   }
 
   .company-logo .logo {
@@ -117,7 +117,7 @@ html {
     display: block;
     font-size: 32px;
     margin-right: 10px;
-    z-index: 4000;      /* above menu */
+    z-index: 10002;      /* above menu */
     background: none;
     border: none;
     cursor: pointer;
@@ -133,7 +133,7 @@ html {
     width: 100vw;
     height: 100vh;
     background-color: rgba(0,0,0,0.3); /* semi-transparent overlay */
-    z-index: 2500;              /* below hamburger but above page content */
+    z-index: 10003;              /* below hamburger but above page content */
   }
 
   .menu-overlay.active {
@@ -153,7 +153,7 @@ html {
     padding: 60px 20px;
     box-shadow: -2px 0 10px rgba(0,0,0,0.3);
     transition: right 0.3s ease-in-out;
-    z-index: 3500; /* above overlay */
+    z-index: 10003; /* above overlay */
     overflow-y: auto;
   }
 
@@ -1412,6 +1412,7 @@ left: 4%;
   opacity: 1;               /* fully visible */
   transform: translateY(0); /* move to original position */
 }
+
 
 
 
