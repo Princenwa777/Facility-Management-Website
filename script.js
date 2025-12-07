@@ -5,13 +5,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
   if (!hamburger || !menu) return;
 
-  // Prevent clicks inside menu from propagating
-  menu.addEventListener('click', e => e.stopPropagation());
-
   // Open menu
   const openMenu = () => {
     menu.classList.add('open');
-    document.body.style.overflow = 'hidden'; // prevent background scroll
+    document.body.style.overflow = 'hidden';
   };
 
   // Close menu
@@ -22,34 +19,27 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Hamburger click toggles menu
   hamburger.addEventListener('click', (e) => {
-    e.stopPropagation(); // prevent triggering document click
-    if (menu.classList.contains('open')) {
-      closeMenu();
-    } else {
-      openMenu();
-    }
+    e.stopPropagation(); // prevent document click
+    menu.classList.contains('open') ? closeMenu() : openMenu();
   });
 
   // Click any link closes menu
-  menuLinks.forEach(link => {
-    link.addEventListener('click', closeMenu);
-  });
+  menuLinks.forEach(link => link.addEventListener('click', closeMenu));
 
-  // Click anywhere outside menu closes it
+  // Click outside menu closes it
   document.addEventListener('click', (e) => {
+    if (!menu.classList.contains('open')) return;
     if (!menu.contains(e.target) && !hamburger.contains(e.target)) {
       closeMenu();
     }
   });
 
-  // Optional: swipe left to close menu
+  // Swipe left to close menu
   let startX = null;
-
   document.addEventListener('touchstart', e => startX = e.touches[0].clientX);
   document.addEventListener('touchmove', e => {
     if (!startX) return;
-    let currentX = e.touches[0].clientX;
-    let diffX = currentX - startX;
+    const diffX = e.touches[0].clientX - startX;
     if (menu.classList.contains('open') && diffX < -50) {
       closeMenu();
       startX = null;
@@ -256,6 +246,7 @@ function revealOnScroll() {
 window.addEventListener('scroll', revealOnScroll);
 
 window.addEventListener('load', revealOnScroll); // reveal visible elements on load
+
 
 
 
