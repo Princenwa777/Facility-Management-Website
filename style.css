@@ -96,35 +96,50 @@ html {
 /* ===== Mobile Slide-In Menu ===== */
 @media screen and (max-width: 768px) {
 
-  /* Hamburger visible */
+  /* Top bar adjustments */
+  .top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    gap: 0;
+  }
+
+  .company-logo .logo {
+    max-width: 110px;
+    margin-left: 0;
+  }
+
+  /* Hamburger button */
   .hamburger {
     display: block;
     font-size: 32px;
     margin-right: 10px;
-    cursor: pointer;
+    z-index: 1001;
     background: none;
     border: none;
+    cursor: pointer;
   }
 
-  /* Slide-in menu panel */
+  /* Drawer menu */
   .main-menu {
-    position: fixed;        /* stays fixed on screen */
+    position: fixed;
     top: 0;
-    right: -300px;          /* start offscreen */
-    width: 300px;           /* width of menu drawer */
-    height: 100vh;          /* full screen height */
+    right: -300px;        /* start hidden off-screen */
+    width: 300px;         /* menu width */
+    height: 100vh;        /* full screen height */
     background-color: #f5f5f5;
     display: flex;
     flex-direction: column;
-    padding: 60px 20px;     /* space for header + items */
+    padding: 60px 20px;
     box-shadow: -2px 0 10px rgba(0,0,0,0.3);
-    transition: right 0.3s ease-in-out; /* smooth slide */
-    z-index: 999;
+    transition: right 0.3s ease-in-out;
+    z-index: 1000;
   }
 
   /* Open state */
   .main-menu.open {
-    right: 0;               /* slide fully into view */
+    right: 0;
   }
 
   /* Menu items vertical */
@@ -136,12 +151,6 @@ html {
     list-style: none;
   }
 
-  .main-menu li {
-    display: flex;
-    align-items: center;
-  }
-
-  /* Remove dividers on mobile */
   .main-menu li:not(:last-child)::after {
     content: "";
   }
@@ -152,7 +161,6 @@ html {
     text-align: center;
     padding: 15px 0;
     margin-top: 20px;
-    display: block;
   }
 }
 
@@ -1387,6 +1395,7 @@ left: 4%;
   opacity: 1;               /* fully visible */
   transform: translateY(0); /* move to original position */
 }
+
 
 
 
