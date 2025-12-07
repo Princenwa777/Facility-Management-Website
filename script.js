@@ -1,5 +1,4 @@
 document.addEventListener("DOMContentLoaded", () => {
-
   const hamburger = document.querySelector('.hamburger');
   const menu = document.querySelector('.main-menu');
   const menuLinks = document.querySelectorAll('.main-menu a');
@@ -22,7 +21,8 @@ document.addEventListener("DOMContentLoaded", () => {
   };
 
   // Hamburger click toggles menu
-  hamburger.addEventListener('click', () => {
+  hamburger.addEventListener('click', (e) => {
+    e.stopPropagation(); // prevent triggering document click
     if (menu.classList.contains('open')) {
       closeMenu();
     } else {
@@ -30,10 +30,16 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 
-
   // Click any link closes menu
   menuLinks.forEach(link => {
     link.addEventListener('click', closeMenu);
+  });
+
+  // Click anywhere outside menu closes it
+  document.addEventListener('click', (e) => {
+    if (!menu.contains(e.target) && !hamburger.contains(e.target)) {
+      closeMenu();
+    }
   });
 
   // Optional: swipe left to close menu
@@ -50,8 +56,8 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
   document.addEventListener('touchend', () => startX = null);
-
 });
+
 
 // ===== Fade Carousel =====
 const slides = document.querySelectorAll(".slide");
@@ -250,6 +256,7 @@ function revealOnScroll() {
 window.addEventListener('scroll', revealOnScroll);
 
 window.addEventListener('load', revealOnScroll); // reveal visible elements on load
+
 
 
 
