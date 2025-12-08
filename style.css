@@ -501,7 +501,7 @@ html {
 /* === Slide Up Animation (Text + Button) === */
 .hero-text,
 .hero-button {
-  position: relative;
+  position: absolute;
   top: 10%;
   transform: translateY(150px); /* start low */
   opacity: 0;
@@ -1608,6 +1608,7 @@ left: 4%;
   opacity: 1;               /* fully visible */
   transform: translateY(0); /* move to original position */
 }
+
 
 
 
