@@ -447,7 +447,7 @@ html {
   font-family: "Open Sans", sans-serif;
   margin-left: 87px;
   line-height: 29px
-  margin-top: -20px
+  margin-top: -50px
  
   
 }
@@ -1610,6 +1610,7 @@ left: 4%;
   opacity: 1;               /* fully visible */
   transform: translateY(0); /* move to original position */
 }
+
 
 
 
