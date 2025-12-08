@@ -460,7 +460,7 @@ html {
   color: white;
   border-radius: 30px;
   font-size: 18px;
-  padding: 15px 40px; /* extra left padding for circle */
+  padding: 15px 40px 5px 40px; /* extra left padding for circle */
   margin-left: 87px;
   top: 18%;
   padding-left: 39px;
@@ -1610,6 +1610,7 @@ left: 4%;
   opacity: 1;               /* fully visible */
   transform: translateY(0); /* move to original position */
 }
+
 
 
 
