@@ -502,7 +502,7 @@ html {
 .hero-text,
 .hero-button {
   position: relative;
-  top: 50%;
+  top: 10%;
   transform: translateY(150px); /* start low */
   opacity: 0;
   transition: transform 0.8s ease-out, opacity 0.8s ease-out;
@@ -1608,6 +1608,7 @@ left: 4%;
   opacity: 1;               /* fully visible */
   transform: translateY(0); /* move to original position */
 }
+
 
 
 
