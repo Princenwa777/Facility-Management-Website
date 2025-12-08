@@ -446,9 +446,10 @@ html {
   font-size: 30px;
   font-weight: 400;
   font-family: "Open Sans", sans-serif;
-  margin-left: 87px;
+  margin-left: 0;
   line-height: 29px
-  top: 30%;
+  top: 20%;
+  text-align: center;
  
   
 }
@@ -461,8 +462,8 @@ html {
   border-radius: 30px;
   font-size: 18px;
   padding: 20px 75px 20px 32px; /* extra left padding for circle */
-  margin-left: 87px;
-  top: 50%;
+  margin-left: 0;
+  top: 18%;
   padding-left: 39px;
   text-decoration: none;
   z-index: 9999;
@@ -1610,6 +1611,7 @@ left: 4%;
   opacity: 1;               /* fully visible */
   transform: translateY(0); /* move to original position */
 }
+
 
 
 
