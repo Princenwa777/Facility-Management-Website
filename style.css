@@ -460,7 +460,7 @@ html {
   color: white;
   border-radius: 30px;
   font-size: 18px;
-  padding: 15px 40px 5px 40px; /* extra left padding for circle */
+  padding: 20px 75px 20px 32px; /* extra left padding for circle */
   margin-left: 87px;
   top: 18%;
   padding-left: 39px;
@@ -470,6 +470,8 @@ html {
   transition: background-color 0.15;
   width: auto;
   white-space: nowrap;
+  max-width: fit-content;
+  box-sizing: content-box;
   
   }
   .read-more:hover {
@@ -1610,6 +1612,7 @@ left: 4%;
   opacity: 1;               /* fully visible */
   transform: translateY(0); /* move to original position */
 }
+
 
 
 
