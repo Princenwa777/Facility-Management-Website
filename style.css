@@ -384,7 +384,7 @@ html {
   .slider {
   width: 100%;
   height: 700px;
-  position: relative;
+  position: absolute;
   overflow: hidden;
 }
 
@@ -1612,6 +1612,7 @@ left: 4%;
   opacity: 1;               /* fully visible */
   transform: translateY(0); /* move to original position */
 }
+
 
 
 
