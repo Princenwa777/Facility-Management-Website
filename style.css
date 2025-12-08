@@ -446,10 +446,9 @@ html {
   font-size: 30px;
   font-weight: 400;
   font-family: "Open Sans", sans-serif;
-  margin-left: 0;
+  margin-left: 87px;
   line-height: 29px
   top: 20%;
-  text-align: center;
  
   
 }
@@ -462,15 +461,13 @@ html {
   border-radius: 30px;
   font-size: 18px;
   padding: 20px 75px 20px 32px; /* extra left padding for circle */
-  margin-left: 0;
+  margin-left: 87px;
   top: 18%;
   padding-left: 39px;
   text-decoration: none;
   z-index: 9999;
   font-family: Roboto, sans-serif;
   transition: background-color 0.15;
-  
-
   
   }
   .read-more:hover {
@@ -505,8 +502,8 @@ html {
 .hero-text,
 .hero-button {
   position: relative;
-  bottom: 280px;
-  transform: translateY(210px); /* start low */
+  top: 50%;
+  transform: translateY(150px); /* start low */
   opacity: 0;
   transition: transform 0.8s ease-out, opacity 0.8s ease-out;
 }
@@ -1611,6 +1608,7 @@ left: 4%;
   opacity: 1;               /* fully visible */
   transform: translateY(0); /* move to original position */
 }
+
 
 
 
