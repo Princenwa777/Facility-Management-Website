@@ -293,7 +293,7 @@ html {
   border-bottom: 25px solid transparent; /* horizontal side */
   margin-bottom: 20px;
   clip-path: polygon(100% 0, 0 100% 100%, 0 100%);
-  border-bottom-right-radius: 8px;/* rounds the tip (adjust 8px as needed) */
+  border-bottom-right-radius: 8px;   /* rounds the tip (adjust 8px as needed) */
 }
 
 
@@ -1076,7 +1076,7 @@ flex-wrap: wrap;
 
 .image-row img {
   width: 200px;
-  height:auto
+  height:auto;
 }
 
 
@@ -1410,7 +1410,6 @@ left: 4%;
 }
 
 }
-
 
 
 
