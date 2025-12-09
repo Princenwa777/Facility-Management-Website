@@ -1410,27 +1410,6 @@ left: 4%;
 }
 
 
-.wrap-text-image {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-}
-  
-.house-hold-name {
-  color: rgb(122, 122, 122);
-  font-family: "Open Sans", sans-serif;
-  font-size: 15px;
-  font-weight: 400;
-  line-height: 25px;
-  margin-left: 87px;
-  margin-top: -60px;
-}
-
-  .moveable-image img {
-  height: 345px;       /* set your desired height */
-  object-fit: cover;   /* maintain aspect ratio or fill */
-}
-}
 
 
 
