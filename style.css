@@ -1409,12 +1409,19 @@ left: 4%;
   width: 120px;
 }
 
+
+.wrap-text-image{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+  
 .house-hold-name {
   color: rgb(122, 122, 122);
   font-family: "Open Sans", sans-serif;
   font-size: 15px;
   font-weight: 400;
-  width: 340px;
+  width: 100%;
   line-height: 25px;
   margin-left: 87px;
   margin-top: -60px;
@@ -1426,6 +1433,7 @@ left: 4%;
   object-fit: cover;   /* maintain aspect ratio or fill */
 }
 }
+
 
 
 
