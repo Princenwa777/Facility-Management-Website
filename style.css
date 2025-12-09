@@ -233,9 +233,12 @@ html {
   background-position: center; /* keeps the middle visible */
   overflow: hidden;
   pointer-events: none;
+}
 
-
-
+@media screen and (max-width: 768px) {
+.decorative-pattern {
+  display: none;
+}
 }
 
 
@@ -1407,6 +1410,7 @@ left: 4%;
   opacity: 1;               /* fully visible */
   transform: translateY(0); /* move to original position */
 }
+
 
 
 
