@@ -190,6 +190,12 @@ html {
   overflow: hidden;
 }
 
+/* ===== MOBILE RESPONSIVE FIXES ===== */
+@media screen and (max-width: 768px) {
+height: 700px;
+
+
+  
 /* Badge top-right */
 .badge {
   position: absolute;
@@ -1411,6 +1417,7 @@ left: 4%;
   opacity: 1;               /* fully visible */
   transform: translateY(0); /* move to original position */
 }
+
 
 
 
