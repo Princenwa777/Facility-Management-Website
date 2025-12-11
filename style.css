@@ -1423,7 +1423,7 @@ left: 4%;
 
 
 
-
+/* ===== MOBILE RESPONSIVE FIXES ===== */
 @media screen and (max-width: 768px) {
 .read-more {
   margin-top: -30px;
@@ -1431,6 +1431,7 @@ left: 4%;
 
 
 }
+
 
 
 
