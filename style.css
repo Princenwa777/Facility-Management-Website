@@ -192,7 +192,10 @@ html {
 
 /* ===== MOBILE RESPONSIVE FIXES ===== */
 @media screen and (max-width: 768px) {
-height: 700px;}
+.slider {
+  height: 700px;
+}
+}
 
 
   
@@ -1417,6 +1420,7 @@ left: 4%;
   opacity: 1;               /* fully visible */
   transform: translateY(0); /* move to original position */
 }
+
 
 
 
