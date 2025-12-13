@@ -1425,12 +1425,21 @@ left: 4%;
   height: 700px;
 }
 
-
+.hero-text,
+.hero-button {
+  position: relative;
+  bottom: 280px;
+  transform: translateY(210px); /* start low */
+  opacity: 0;
+  transition: transform 0.8s ease-out, opacity 0.8s ease-out;
+}
+  
 }
 
 
 
   
+
 
 
 
