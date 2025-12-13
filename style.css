@@ -1428,7 +1428,7 @@ left: 4%;
 .hero-text,
 .hero-button {
   position: relative;
-  bottom: 350px;
+  bottom: 300px;
   transform: translateY(210px); /* start low */
   opacity: 0;
   transition: transform 0.8s ease-out, opacity 0.8s ease-out;
@@ -1438,6 +1438,7 @@ left: 4%;
 
 
   
+
 
 
 
