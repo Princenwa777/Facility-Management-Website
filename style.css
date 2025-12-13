@@ -190,14 +190,6 @@ html {
   overflow: hidden;
 }
 
-/* ===== MOBILE RESPONSIVE FIXES ===== */
-@media screen and (max-width: 768px) {
-.slider {
-  height: 700px;
-}
-}
-
-
   
 /* Badge top-right */
 .badge {
@@ -1426,13 +1418,26 @@ left: 4%;
 /* ===== MOBILE RESPONSIVE FIXES ===== */
 @media screen and (max-width: 768px) {
 .read-more {
-  margin-top: -30px;
+  margin-top: -30px;  
+}
+
+  .slider {
+  height: 700px;
+}
+
+.hero-text,
+.hero-button {
+  position: relative;
+  bottom: 350px;
+  transform: translateY(210px); /* start low */
+  opacity: 0;
+  transition: transform 0.8s ease-out, opacity 0.8s ease-out;
+}
 }
 
 
-}
 
-
+  
 
 
 
