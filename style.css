@@ -1442,14 +1442,14 @@ left: 4%;
 }
 
 .house-hold-name {
-  width: 270px;
+  width: 250px;
   line-height: 30px;
   margin-left: 40px;
 }
 
 .moveable-image {
-  top: -500px;           /* adjust vertical position */
-  left: 40px;          /* adjust horizontal position */
+  top: -800px;           /* adjust vertical position */
+  left: 35px;          /* adjust horizontal position */
 }
 
 .moveable-image img {
@@ -1457,8 +1457,38 @@ left: 4%;
   height: 200px;       /* set your desired height */
 }
 
+.full-screen-image img.bg-image {
+  margin-top: -250px;
+}
+
+.overlay-image {
+  top: 85px;      /* move down */
+  left: 50px;     /* move right */
+  width: 300px;   /* control size */
+
+}
+ .overlay-overview {
+  top: 400px;
+  left: 50px;
+}
+
+
+/* overlay paragraph styling */
+.overlay-paragraph {
+  left: 50px;
+  line-height: 33.6px;
+  top: 450px; 
+} 
+
+.third-read-more {
+  left: 50px;
+  top: 600px;  
+}
+
+
   
 }
+
 
 
 
