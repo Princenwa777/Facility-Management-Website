@@ -1427,25 +1427,24 @@ left: 4%;
 
 .hero-text,
 .hero-button {
-  bottom: 550px;
-
+  bottom: 450px;
 }
 
   .cleaning-company {
-  margin-left: 70px; 
+  margin-left: 60px; 
 }
 
 .read-more { 
-  margin-left: 70px;
+  margin-left: 60px;
+}
+
+.badge-overlay {
+  bottom: 3%;     
+
 }
 
 
-
-}  
-
-
-
-
+}
 
 
 
