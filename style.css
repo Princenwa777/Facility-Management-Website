@@ -328,7 +328,6 @@ html {
   width: 100px;              /* adjust size as needed */
   height: 100px;
   z-index: 10;
-  margin-bottom: 30px;
   margin-right: 105px;                /* on top of slides */
 }
 
@@ -1427,24 +1426,26 @@ left: 4%;
 
 .hero-text,
 .hero-button {
-  bottom: 550px;
+  bottom: 600px;
 }
 
   .cleaning-company {
-  margin-left: 50px; 
+  margin-left: 30px; 
 }
 
 .read-more { 
-  margin-left: 50px;
+  margin-left: 30px;
 }
 
 .badge-overlay {
-  margin-bottom: 10px;  
+  bottom: 5%;                     
+      
 
 }
 
 
 }
+
 
 
 
