@@ -1448,7 +1448,7 @@ left: 4%;
 }
 
 .moveable-image {
-  top: -100px;           /* adjust vertical position */
+  top: -20px;           /* adjust vertical position */
   left: 35px;          /* adjust horizontal position */
 }
 
@@ -1458,7 +1458,7 @@ left: 4%;
 }
 
 .full-screen-image img.bg-image {
-  margin-top: -150px;
+  margin-top: 10px;
 }
 
 .overlay-image {
@@ -1504,6 +1504,7 @@ left: 4%;
 
   
 }
+
 
 
 
