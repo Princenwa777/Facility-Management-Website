@@ -1421,7 +1421,7 @@ left: 4%;
 }
 
   .slider {
-  height: 800px;
+  height: 820px;
 }
 
 .hero-text,
@@ -1442,14 +1442,24 @@ left: 4%;
 }
 
 .house-hold-name {
-  width: 300px;
+  width: 270px;
   line-height: 30px;
   margin-left: 40px;
 }
 
+.moveable-image {
+  top: -500px;           /* adjust vertical position */
+  left: 40px;          /* adjust horizontal position */
+}
+
+.moveable-image img {
+  width: 300px;        /* set your desired width */
+  height: 200px;       /* set your desired height */
+}
 
   
 }
+
 
 
 
