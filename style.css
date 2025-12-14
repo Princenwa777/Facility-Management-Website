@@ -1421,7 +1421,7 @@ left: 4%;
 }
 
   .slider {
-  height: 820px;
+  height: 825px;
 }
 
 .hero-text,
@@ -1434,11 +1434,11 @@ left: 4%;
 }
 
 .read-more { 
-  margin-left: 30px;
+  margin-left: 20px;
 }
 
 .badge-overlay {
-  bottom: -15%;                     
+  bottom: -12%;                     
 }
 
 .house-hold-name {
@@ -1448,7 +1448,7 @@ left: 4%;
 }
 
 .moveable-image {
-  top: -800px;           /* adjust vertical position */
+  top: -100px;           /* adjust vertical position */
   left: 35px;          /* adjust horizontal position */
 }
 
@@ -1458,7 +1458,7 @@ left: 4%;
 }
 
 .full-screen-image img.bg-image {
-  margin-top: -250px;
+  margin-top: -150px;
 }
 
 .overlay-image {
@@ -1473,21 +1473,38 @@ left: 4%;
 }
 
 
-/* overlay paragraph styling */
 .overlay-paragraph {
   left: 50px;
   line-height: 33.6px;
   top: 450px; 
 } 
 
+.overlay-paragraph-two {
+ 
+  top: 500px;
+  left: 50px;
+  line-height: 33.6px;  
+}
+  
 .third-read-more {
   left: 50px;
   top: 600px;  
 }
 
+.overlay-heading-two {
+  top: 950px;
+  left: 140px;
+}
+  
+.unordered-list {
+  top: 1000px;
+  left: 100px;
+  line-height: 31px;
+}
 
   
 }
+
 
 
 
