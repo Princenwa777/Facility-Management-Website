@@ -1438,13 +1438,17 @@ left: 4%;
 }
 
 .badge-overlay {
-  bottom: -20%;                     
-      
+  bottom: -10%;                     
+}
 
+.house-hold-name {
+  width: 300px;
 }
 
 
+  
 }
+
 
 
 
