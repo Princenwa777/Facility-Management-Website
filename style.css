@@ -1422,7 +1422,7 @@ left: 4%;
 }
 
   .slider {
-  height: 700px;
+  height: 800px;
 }
 
 .hero-text,
@@ -1431,11 +1431,11 @@ left: 4%;
 }
 
   .cleaning-company {
-  margin-left: 60px; 
+  margin-left: 50px; 
 }
 
 .read-more { 
-  margin-left: 60px;
+  margin-left: 50px;
 }
 
 .badge-overlay {
@@ -1445,6 +1445,7 @@ left: 4%;
 
 
 }
+
 
 
 
