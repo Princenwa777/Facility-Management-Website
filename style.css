@@ -323,7 +323,7 @@ html {
 
 .badge-overlay {
   position: absolute;        /* overlay on top of slides */
-  bottom: 80%;               /* 10% from bottom of carousel */
+  bottom: 10%;               /* 10% from bottom of carousel */
   right: 5%;                 /* 5% from right edge */
   width: 100px;              /* adjust size as needed */
   height: 100px;
@@ -1438,13 +1438,14 @@ left: 4%;
 }
 
 .badge-overlay {
-  bottom: 30%;                     
+  bottom: -20%;                     
       
 
 }
 
 
 }
+
 
 
 
