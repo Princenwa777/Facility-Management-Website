@@ -1427,7 +1427,7 @@ left: 4%;
 
 .hero-text,
 .hero-button {
-  bottom: 450px;
+  bottom: 550px;
 }
 
   .cleaning-company {
@@ -1439,12 +1439,13 @@ left: 4%;
 }
 
 .badge-overlay {
-  bottom: 3%;     
+  margin-bottom: 10px;  
 
 }
 
 
 }
+
 
 
 
