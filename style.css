@@ -1483,7 +1483,7 @@ left: 4%;
 
 .overlay-paragraph-two {
  
-  top: 750px;
+  top: 720px;
   left: 50px;
   line-height: 33.6px;  
 }
@@ -1497,23 +1497,23 @@ left: 4%;
   top: 1250px;
   left: 50px;
   line-height: 33.6px;
-  width: 340px;
+  width: 300px;
  }
   
 .overlay-heading-two {
-  top: 1400px;
+  top: 1600px;
   left: 50px;
 }
   
 .unordered-list {
-  top: 1700px;
+  top: 1650px;
   left: 100px;
   line-height: 31px;
 }
 
 .fourth-read-more {
   left: 50px;
-  top: 1550px;  
+  top: 1750px;  
 }
   
 .image-wrapper {
@@ -1600,6 +1600,7 @@ gap: 40px;
 }
  
 }
+
 
 
 
