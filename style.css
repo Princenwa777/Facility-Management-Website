@@ -314,6 +314,7 @@ html {
   transition: transform 0.8s ease-out, opacity 0.8s ease-out;
 }
 
+
 /* When activated */
 .animate-up {
   transform: translateY(0);
@@ -1417,7 +1418,7 @@ left: 4%;
 @media screen and (max-width: 768px) {
 .read-more {
   margin-top: -30px;  
-   margin-left: 40px;
+   margin-left: 30px;
 }
 
   .slider {
@@ -1464,7 +1465,7 @@ left: 4%;
 
 .overlay-image {
   top: 85px;      /* move down */
-  left: 30px;     /* move right */
+  left: 25px;     /* move right */
   width: 300px;   /* control size */
 
 }
@@ -1493,7 +1494,7 @@ left: 4%;
 }
 
  .overlay-paragraph-three {
-  top: 1150px;
+  top: 1200px;
   left: 50px;
   line-height: 33.6px;
   width: 500px;
@@ -1510,6 +1511,12 @@ left: 4%;
   line-height: 31px;
 }
 
+.fourth-read-more {
+  left: 130px;
+  top: 1350px;
+
+  
+}
   
 }
 
