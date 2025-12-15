@@ -1417,7 +1417,7 @@ left: 4%;
 @media screen and (max-width: 768px) {
 .read-more {
   margin-top: -30px;  
-   margin-left: 30px;
+   margin-left: 40px;
 }
 
   .slider {
@@ -1434,7 +1434,7 @@ left: 4%;
 }
 
 .badge-overlay {
-  bottom: -8%;                     
+  bottom: 10%;                     
 }
 
 .house-hold-name {
@@ -1449,8 +1449,8 @@ left: 4%;
 }
   
 .moveable-image {
-  top: 40px;           /* adjust vertical position */
-  left: 32px;          /* adjust horizontal position */
+  top: 100px;           /* adjust vertical position */
+  left: 31px;          /* adjust horizontal position */
 }
 
 .moveable-image img {
@@ -1459,12 +1459,12 @@ left: 4%;
 }
 
 .full-screen-image img.bg-image {
-  margin-top: 70px;
+  margin-top: 150px;
 }
 
 .overlay-image {
   top: 85px;      /* move down */
-  left: 50px;     /* move right */
+  left: 40px;     /* move right */
   width: 300px;   /* control size */
 
 }
@@ -1482,7 +1482,7 @@ left: 4%;
 
 .overlay-paragraph-two {
  
-  top: 1000px;
+  top: 700px;
   left: 50px;
   line-height: 33.6px;  
 }
@@ -1492,6 +1492,13 @@ left: 4%;
   top: 1100px;  
 }
 
+ .overlay-paragraph-three {
+  top: 670px;
+  left: 50px;
+  line-height: 33.6px;
+  width: 500px;
+ }
+  
 .overlay-heading-two {
   top: 1200px;
   left: 50px;
@@ -1505,6 +1512,7 @@ left: 4%;
 
   
 }
+
 
 
 
