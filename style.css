@@ -430,9 +430,8 @@ html {
   z-index: 9999;
   font-family: Roboto, sans-serif;
   transition: background-color 0.15;
-
-  
   }
+
   .second-read-more:hover {
     background-color: green;  
   }
@@ -1418,6 +1417,7 @@ left: 4%;
 @media screen and (max-width: 768px) {
 .read-more {
   margin-top: -30px;  
+   margin-left: 30px;
 }
 
   .slider {
@@ -1426,19 +1426,15 @@ left: 4%;
 
 .hero-text,
 .hero-button {
-  bottom: 620px;
+  bottom: 630px;
 }
 
   .cleaning-company {
   margin-left: 30px; 
 }
 
-.read-more { 
-  margin-left: 20px;
-}
-
 .badge-overlay {
-  bottom: -12%;                     
+  bottom: -8%;                     
 }
 
 .house-hold-name {
@@ -1447,9 +1443,14 @@ left: 4%;
   margin-left: 40px;
 }
 
+.second-read-more {
+  margin-left: 40px;
+  margin-top: 60px;
+}
+  
 .moveable-image {
-  top: 30px;           /* adjust vertical position */
-  left: 35px;          /* adjust horizontal position */
+  top: 40px;           /* adjust vertical position */
+  left: 32px;          /* adjust horizontal position */
 }
 
 .moveable-image img {
@@ -1458,7 +1459,7 @@ left: 4%;
 }
 
 .full-screen-image img.bg-image {
-  margin-top: 50px;
+  margin-top: 70px;
 }
 
 .overlay-image {
@@ -1468,7 +1469,7 @@ left: 4%;
 
 }
  .overlay-overview {
-  top: 400px;
+  top: 370px;
   left: 50px;
 }
 
@@ -1481,29 +1482,30 @@ left: 4%;
 
 .overlay-paragraph-two {
  
-  top: 500px;
+  top: 1000px;
   left: 50px;
   line-height: 33.6px;  
 }
   
 .third-read-more {
   left: 50px;
-  top: 600px;  
+  top: 1100px;  
 }
 
 .overlay-heading-two {
-  top: 950px;
-  left: 140px;
+  top: 1200px;
+  left: 50px;
 }
   
 .unordered-list {
-  top: 1000px;
+  top: 1250px;
   left: 100px;
   line-height: 31px;
 }
 
   
 }
+
 
 
 
