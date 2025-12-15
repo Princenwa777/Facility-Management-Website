@@ -617,7 +617,7 @@ font-size: 1.2em;
 
 .unordered-list li:hover::before  {
   color: blue;
-}
+ }
 
 
 /* Video container */
@@ -1434,7 +1434,7 @@ left: 4%;
 }
 
 .badge-overlay {
-  bottom: 10%;                     
+  bottom: -20%;                     
 }
 
 .house-hold-name {
@@ -1464,7 +1464,7 @@ left: 4%;
 
 .overlay-image {
   top: 85px;      /* move down */
-  left: 40px;     /* move right */
+  left: 30px;     /* move right */
   width: 300px;   /* control size */
 
 }
@@ -1482,7 +1482,7 @@ left: 4%;
 
 .overlay-paragraph-two {
  
-  top: 700px;
+  top: 750px;
   left: 50px;
   line-height: 33.6px;  
 }
@@ -1493,7 +1493,7 @@ left: 4%;
 }
 
  .overlay-paragraph-three {
-  top: 670px;
+  top: 1150px;
   left: 50px;
   line-height: 33.6px;
   width: 500px;
