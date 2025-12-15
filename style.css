@@ -1513,7 +1513,7 @@ left: 4%;
 
 .fourth-read-more {
   left: 50px;
-  top: 1750px;  
+  top: 1700px;  
 }
   
 .image-wrapper {
@@ -1533,25 +1533,25 @@ left: 4%;
 
 .new-paragraph {   
     margin-left: 70px;
-    margin-top: 200px;
+    margin-top: 600px;
 }
 
 
 .left-image {
-  top: 150px;         /* adjust vertical position */
+  top: 650px;         /* adjust vertical position */
   left: 20px;          /* adjust horizontal position */
   width: 350px;         /* container width (optional) */
 }
 
 
 .middle-image {
-  top: 150px;           /* adjust vertical position */
+  top: 650px;           /* adjust vertical position */
   left: 20px;          /* adjust horizontal position */
   width: 360px;         /* container width (optional) */
 } 
 
  .slide-image {
-  top: 150px;           /* adjust vertical position */
+  top: 650px;           /* adjust vertical position */
   left: 20px;          /* adjust horizontal position */
   width: 355px;         /* container width (optional) */
 }
@@ -1600,6 +1600,7 @@ gap: 40px;
 }
  
 }
+
 
 
 
