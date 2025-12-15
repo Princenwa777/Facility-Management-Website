@@ -1439,7 +1439,7 @@ left: 4%;
 }
 
 .house-hold-name {
-  width: 250px;
+  width: 200px;
   line-height: 30px;
   margin-left: 40px;
 }
@@ -1490,14 +1490,14 @@ left: 4%;
   
 .third-read-more {
   left: 50px;
-  top: 1200px;  
+  top: 1150px;  
 }
 
  .overlay-paragraph-three {
   top: 1250px;
   left: 50px;
   line-height: 33.6px;
-  width: 300px;
+  width: 250px;
  }
   
 .overlay-heading-two {
@@ -1525,10 +1525,10 @@ left: 4%;
 }
 
 .video-container {
-  top: 1600px;
+  top: 1700px;
   left: 20px;
-  width: 320px;
-  height: 200px;
+  width: 350px;
+  height: 250px;
 }
 
 .new-paragraph {   
@@ -1600,6 +1600,7 @@ gap: 40px;
 }
  
 }
+
 
 
 
