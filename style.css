@@ -1507,7 +1507,7 @@ left: 4%;
   
 .unordered-list {
   top: 1650px;
-  left: 40spx;
+  left: 20spx;
   line-height: 31px;
 }
 
@@ -1519,21 +1519,21 @@ left: 4%;
 .image-wrapper {
   position: relative;          /* Needed for overlay positioning */
   width: 100vw;
-  height: 130px;
+  height: 300px;
   overflow: hidden; /* Ensures overlay doesn’t spill */
-  top: 1750px;
+  top: 1600px;
 }
 
 .video-container {
   top: 1950px;
-  left: 18px;
+  left: 15px;
   width: 350px;
   height: 250px;
 }
 
 .new-paragraph {   
     margin-left: 70px;
-    margin-top: 1000px;
+    margin-top: 1200px;
 }
 
 
@@ -1600,6 +1600,7 @@ gap: 40px;
 }
  
 }
+
 
 
 
