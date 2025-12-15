@@ -1507,7 +1507,7 @@ left: 4%;
   
 .unordered-list {
   top: 1650px;
-  left: 40px;
+  left: 30px;
   line-height: 31px;
 }
 
@@ -1521,12 +1521,23 @@ left: 4%;
   width: 100vw;
   height: 300px;
   overflow: hidden; /* Ensures overlay doesn’t spill */
-  top: 1400px;
+  top: 1200px;
 }
 
+.short-paragraph {
+  top: 50px;
+  left: 20px; 
+}
+
+
+.read-copy{
+  left: 100px;
+  top: 80px;
+}
+  
 .video-container {
   top: 1950px;
-  left: 10px;
+  left: 5px;
   width: 350px;
   height: 250px;
 }
@@ -1599,20 +1610,10 @@ gap: 40px;
   margin-top: -20px;;
 }
 
-.short-paragraph {
-  top: 32px;
-  left: 50px; 
+
+  
 }
 
-
-.read-copy{
-  left: 100px;
-  top: 40px;
-  
-  
-}
-  
-}
 
 
 
