@@ -1501,19 +1501,19 @@ left: 4%;
  }
   
 .overlay-heading-two {
-  top: 1600px;
+  top: 1650px;
   left: 50px;
 }
   
 .unordered-list {
-  top: 1650px;
-  left: 30px;
+  top: 1700px;
+  left: 23px;
   line-height: 31px;
 }
 
 .fourth-read-more {
   left: 50px;
-  top: 1850px;  
+  top: 1900px;  
 }
   
 .image-wrapper {
@@ -1525,18 +1525,18 @@ left: 4%;
 }
 
 .short-paragraph {
-  top: 50px;
-  left: 20px; 
+  top: 85px;
+  left: 30px; 
 }
 
 
 .read-copy{
   left: 100px;
-  top: 80px;
+  top: 120px;
 }
   
 .video-container {
-  top: 1950px;
+  top: 2000px;
   left: 5px;
   width: 350px;
   height: 250px;
@@ -1544,12 +1544,12 @@ left: 4%;
 
 .new-paragraph {   
     margin-left: 70px;
-    margin-top: 1200px;
+    margin-top: 1270px;
 }
 
 
 .left-image {
-  top: 650px;         /* adjust vertical position */
+  top: 300px;         /* adjust vertical position */
   left: 20px;          /* adjust horizontal position */
   width: 350px;         /* container width (optional) */
 }
@@ -1582,7 +1582,7 @@ gap: 40px;
 .retiring-paragraph,
 .evolution-paragraph {
   margin-left: 30px;
-  margin-top: 500px;
+  margin-top: 400px;
   width: 400px;
   margin-right: 0;
   margin-left: 0;
@@ -1591,6 +1591,7 @@ gap: 40px;
 
 .honoring-paragraph {
   margin-left: 30px;
+  margin-top: 300px;
 }
 .evolution-paragraph {
   width: 370px;
@@ -1613,6 +1614,7 @@ gap: 40px;
 
   
 }
+
 
 
 
