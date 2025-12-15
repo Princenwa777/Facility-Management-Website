@@ -1427,7 +1427,7 @@ left: 4%;
 
 .hero-text,
 .hero-button {
-  bottom: 630px;
+  bottom: 635px;
 }
 
   .cleaning-company {
@@ -1478,7 +1478,7 @@ left: 4%;
 .overlay-paragraph {
   left: 50px;
   line-height: 33.6px;
-  top: 430px; 
+  top: 400px; 
 } 
 
 .overlay-paragraph-two {
@@ -1506,13 +1506,13 @@ left: 4%;
 }
   
 .unordered-list {
-  top: 1700x;
+  top: 1700px;
   left: 100px;
   line-height: 31px;
 }
 
 .fourth-read-more {
-  left: 130px;
+  left: 50px;
   top: 1550px;  
 }
   
@@ -1531,8 +1531,76 @@ left: 4%;
   height: 200px;
 }
 
+.new-paragraph {   
+    margin-left: 70px;
+    margin-top: 200px;
+}
+
+
+.left-image {
+  top: 150px;         /* adjust vertical position */
+  left: 20px;          /* adjust horizontal position */
+  width: 350px;         /* container width (optional) */
+}
+
+
+.middle-image {
+  top: 150px;           /* adjust vertical position */
+  left: 20px;          /* adjust horizontal position */
+  width: 360px;         /* container width (optional) */
+} 
+
+ .slide-image {
+  top: 150px;           /* adjust vertical position */
+  left: 20px;          /* adjust horizontal position */
+  width: 355px;         /* container width (optional) */
+}
+
+
+.paragraph-container {
+gap: 40px;
+}
+
+.paragraph-item {
+  display: flex;
+  flex-direction: column; /* Stack paragraph and date vertically */
+  gap: 0px;
+}
+
+.honoring-paragraph,
+.retiring-paragraph,
+.evolution-paragraph {
+  margin-left: 30px;
+  margin-top: 500px;
+  width: 400px;
+  margin-right: 0;
+  margin-left: 0;
+
+}
+
+.honoring-paragraph {
+  margin-left: px30;
+}
+.evolution-paragraph {
+  width: 370px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+
+.date {
+  margin-left: 30px;
+  margin-top: -20px;
   
 }
+
+.date-one {
+  margin-left: 30px;
+  margin-top: -20px;;
+}
+ 
+}
+
 
 
 
