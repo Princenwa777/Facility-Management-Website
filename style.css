@@ -1490,7 +1490,7 @@ left: 4%;
   
 .third-read-more {
   left: 50px;
-  top: 1100px;  
+  top: 1250px;  
 }
 
  .overlay-paragraph-three {
@@ -1501,24 +1501,39 @@ left: 4%;
  }
   
 .overlay-heading-two {
-  top: 1200px;
+  top: 1400px;
   left: 50px;
 }
   
 .unordered-list {
-  top: 1250px;
+  top: 1450x;
   left: 100px;
   line-height: 31px;
 }
 
 .fourth-read-more {
   left: 130px;
-  top: 1350px;
+  top: 1550px;  
+}
+  
+.image-wrapper {
+  position: relative;          /* Needed for overlay positioning */
+  width: 100vw;
+  height: 130px;
+  overflow: hidden; /* Ensures overlay doesn’t spill */
+  top: 1750px;
+}
+
+.video-container {
+  top: 1600px;
+  left: 20px;
+  width: 320px;
+  height: 200px;
+}
 
   
 }
-  
-}
+
 
 
 
