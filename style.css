@@ -1439,7 +1439,7 @@ left: 4%;
 }
 
 .house-hold-name {
-  width: 200px;
+  width: 300px;
   line-height: 30px;
   margin-left: 40px;
 }
@@ -1494,7 +1494,7 @@ left: 4%;
 }
 
  .overlay-paragraph-three {
-  top: 1250px;
+  top: 1300px;
   left: 50px;
   line-height: 33.6px;
   width: 250px;
@@ -1507,13 +1507,13 @@ left: 4%;
   
 .unordered-list {
   top: 1650px;
-  left: 100px;
+  left: 40spx;
   line-height: 31px;
 }
 
 .fourth-read-more {
   left: 50px;
-  top: 1700px;  
+  top: 1850px;  
 }
   
 .image-wrapper {
@@ -1525,15 +1525,15 @@ left: 4%;
 }
 
 .video-container {
-  top: 1700px;
-  left: 20px;
+  top: 1950px;
+  left: 18px;
   width: 350px;
   height: 250px;
 }
 
 .new-paragraph {   
     margin-left: 70px;
-    margin-top: 600px;
+    margin-top: 1000px;
 }
 
 
@@ -1600,6 +1600,7 @@ gap: 40px;
 }
  
 }
+
 
 
 
