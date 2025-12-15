@@ -1579,7 +1579,7 @@ gap: 40px;
 }
 
 .honoring-paragraph {
-  margin-left: px30;
+  margin-left: 30px;
 }
 .evolution-paragraph {
   width: 370px;
@@ -1598,8 +1598,22 @@ gap: 40px;
   margin-left: 30px;
   margin-top: -20px;;
 }
- 
+
+.short-paragraph {
+  top: 32px;
+  left: 50px; 
 }
+
+
+.read-copy{
+  left: 100px;
+  top: 40px;
+  
+  
+}
+  
+}
+
 
 
 
