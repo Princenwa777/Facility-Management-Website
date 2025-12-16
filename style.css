@@ -1507,7 +1507,7 @@ left: 4%;
   
 .unordered-list {
   top: 1700px;
-  left: 15px;
+  left: 13px;
   line-height: 31px;
 }
 
@@ -1549,7 +1549,7 @@ left: 4%;
 
 
 .left-image {
-  top: 30px;         /* adjust vertical position */
+  top: 19px;         /* adjust vertical position */
   left: 5px;          /* adjust horizontal position */
   width: 350px;         /* container width (optional) */
 }
@@ -1615,7 +1615,7 @@ gap: 40px;
 
 .green-read-more {
   color: rgb(97, 206, 112);
-}  m  
+}   
 
 .green-read {
   margin-left: 10px;
@@ -1624,6 +1624,7 @@ gap: 40px;
 
   
 }
+
 
 
 
