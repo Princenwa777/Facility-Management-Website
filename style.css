@@ -1549,7 +1549,7 @@ left: 4%;
 
 
 .left-image {
-  top: 19px;         /* adjust vertical position */
+  top: 14px;         /* adjust vertical position */
   left: 5px;          /* adjust horizontal position */
   width: 350px;         /* container width (optional) */
 }
@@ -1585,7 +1585,6 @@ gap: 40px;
   margin-top: 350px;
   width: 400px;
   margin-right: 0;
-  margin-left: 0;
 
 }
 
@@ -1596,9 +1595,10 @@ gap: 40px;
 }
 .evolution-paragraph {
   width: 370px;
-  margin-left: 15px;
+  margin-left: 10px;
   margin-right: 0;
   margin-top: 320px;
+  width: 400px;
 }
 
 
@@ -1614,7 +1614,7 @@ gap: 40px;
 }
 
 .green-read-more {
-  color: rgb(97, 206, 112);
+  margin-left: 10px;
 }   
 
 .green-read {
