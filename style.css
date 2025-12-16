@@ -1526,7 +1526,7 @@ left: 4%;
 
 .short-paragraph {
   top: 85px;
-  left: 4px; 
+  left: 3px; 
 }
 
 
@@ -1593,7 +1593,7 @@ gap: 40px;
   width: 350px;
 }
 .evolution-paragraph {
-  width: 370px;
+  width: 330px;
   margin-left: 10px;
   margin-right: 0;
   margin-top: 470px;
@@ -1621,7 +1621,7 @@ gap: 40px;
 } 
 
 .pagination {
-  margin-left: -2px;
+  margin-left: -10px;
   margin-top: 100px;
 }
 
@@ -1645,7 +1645,7 @@ gap: 40px;
   gap: 10px;
   flex-direction: column;
   margin-top: 200px;
-  align-items: center;
+  justify-content: center;
 }
 
 .image-row img {
@@ -1664,8 +1664,7 @@ gap: 40px;
 }
 
 .fake-recaptcha {
-  padding: 10px;
-  margin-top: 15px 20px 15px 20px;
+  padding: 10px 20px 10px 20px;
 }
   
 .cover-all {
@@ -1677,24 +1676,28 @@ left: 20%;
 .company-logo-two .logo-two {
   max-width: 138.5px;
   height: auto;
-  top: 15px;
-  left: 10px;
+  top: 10px;
+  left: 5px;
   
 }
 
 .first-list {
-  line-height: 40px;
-  display: inline-block;
+  position: absolute;
+  top: 40%;
+  left: 10%;
+
 }
 
 .second-list {
-  line-height: 40px;
+  position: absolute;
+  top: 40%;
+  left: 40%;
 }
 
 
 .cover-icons {
 gap: 8px;
-top: 15%;
+top: 10%;
 left: 4%;
 }
 
@@ -1735,10 +1738,10 @@ left: 4%;
 
 .map-wrapper {
   max-width: 100%;  /* prevents overflow */
-  width: 343px;
+  width: 98px;
   height: 215px;    /* adjust as needed */
-  top: 14%;
-  left: 70%;
+  top: 60%;
+  left: 10%;
 }
 
 .map-wrapper iframe {
@@ -1759,9 +1762,15 @@ left: 4%;
   left: 50%;
 }
 
+.hyper-link {
+  position: absolute;
+  top: 90%;
+  left: 10%;
+}
 
   
 }
+
 
 
 
