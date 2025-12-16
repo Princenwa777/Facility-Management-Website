@@ -1646,27 +1646,27 @@ gap: 40px;
 }
 
 .image-row img {
-  width: 200px;
+  width: 300px;
   height:auto
 }
 
-.cover-all {
-display: flex;
-font-family: Open Sans, sans-serif;
-z-index: 20;
-gap: 35px;
-font-size: 14px;
-font-weight: 400;
-color: white;
-position: absolute;
-top: 10%;
-left: 20%;
+.decorative-pattern-two {
+  display: none;
+}
+
+
+.last-image-wrapper {
+  height: 1000px;
+  top: 200px;          /* Ensures overlay doesn’t spill */
+  
+
 }
 
 
   
   
 }
+
 
 
 
