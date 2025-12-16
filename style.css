@@ -1562,8 +1562,8 @@ left: 4%;
 } 
 
  .slide-image {
-  top: 650px;           /* adjust vertical position */
-  left: 20px;          /* adjust horizontal position */
+  top: 720px;           /* adjust vertical position */
+  left: 5px;          /* adjust horizontal position */
   width: 355px;         /* container width (optional) */
 }
 
@@ -1591,12 +1591,13 @@ gap: 40px;
 
 .honoring-paragraph {
   margin-left: 20px;
-  margin-top: -500px;
+  margin-top: -400px;
 }
 .evolution-paragraph {
   width: 370px;
   margin-left: 0;
   margin-right: 0;
+  margin-top: 320px;
 }
 
 
@@ -1622,6 +1623,7 @@ gap: 40px;
 
   
 }
+
 
 
 
