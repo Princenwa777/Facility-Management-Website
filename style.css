@@ -1521,7 +1521,7 @@ left: 4%;
   width: 100vw;
   height: 300px;
   overflow: hidden; /* Ensures overlay doesn’t spill */
-  top: 1200px;
+  top: 1100px;
 }
 
 .short-paragraph {
@@ -1536,7 +1536,7 @@ left: 4%;
 }
   
 .video-container {
-  top: 2000px;
+  top: 1975px;
   left: 5px;
   width: 350px;
   height: 250px;
@@ -1549,7 +1549,7 @@ left: 4%;
 
 
 .left-image {
-  top: 140px;         /* adjust vertical position */
+  top: 100px;         /* adjust vertical position */
   left: 17px;          /* adjust horizontal position */
   width: 350px;         /* container width (optional) */
 }
@@ -1591,7 +1591,7 @@ gap: 40px;
 
 .honoring-paragraph {
   margin-left: 30px;
-  margin-top: 180px;
+  margin-top: 130px;
 }
 .evolution-paragraph {
   width: 370px;
@@ -1614,6 +1614,7 @@ gap: 40px;
 
   
 }
+
 
 
 
