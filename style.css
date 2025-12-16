@@ -1526,7 +1526,7 @@ left: 4%;
 
 .short-paragraph {
   top: 85px;
-  left: 5px; 
+  left: 4px; 
 }
 
 
@@ -1562,7 +1562,7 @@ left: 4%;
 } 
 
  .slide-image {
-  top: 810px;           /* adjust vertical position */
+  top: 818px;           /* adjust vertical position */
   left: 5px;          /* adjust horizontal position */
   width: 350px;         /* container width (optional) */
 }
@@ -1583,8 +1583,7 @@ gap: 40px;
 .evolution-paragraph {
   margin-left: 10px;
   margin-top: 350px;
-  width: 400px;
-  margin-right: 0;
+  width: 380px;
 
 }
 
@@ -1597,7 +1596,7 @@ gap: 40px;
   width: 370px;
   margin-left: 10px;
   margin-right: 0;
-  margin-top: 380px;
+  margin-top: 440px;
   width: 400px;
 }
 
@@ -1622,10 +1621,12 @@ gap: 40px;
 } 
 
 .pagination {
-  margin-left: 10px;
+  margin-left: 8px;
+  margin-top: 85px;
 }
   
 }
+
 
 
 
