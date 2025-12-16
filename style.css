@@ -1556,13 +1556,13 @@ left: 4%;
 
 
 .middle-image {
-  top: 450px;           /* adjust vertical position */
+  top: 420px;           /* adjust vertical position */
   left: 5px;          /* adjust horizontal position */
   width: 350px;         /* container width (optional) */
 } 
 
  .slide-image {
-  top: 770px;           /* adjust vertical position */
+  top: 810px;           /* adjust vertical position */
   left: 5px;          /* adjust horizontal position */
   width: 350px;         /* container width (optional) */
 }
@@ -1597,7 +1597,7 @@ gap: 40px;
   width: 370px;
   margin-left: 10px;
   margin-right: 0;
-  margin-top: 320px;
+  margin-top: 380px;
   width: 400px;
 }
 
@@ -1621,9 +1621,12 @@ gap: 40px;
   margin-left: 10px;
 } 
 
-
+.pagination {
+  margin-left: 10px;
+}
   
 }
+
 
 
 
