@@ -1562,9 +1562,9 @@ left: 4%;
 } 
 
  .slide-image {
-  top: 720px;           /* adjust vertical position */
+  top: 770px;           /* adjust vertical position */
   left: 5px;          /* adjust horizontal position */
-  width: 355px;         /* container width (optional) */
+  width: 350px;         /* container width (optional) */
 }
 
 
@@ -1590,12 +1590,12 @@ gap: 40px;
 }
 
 .honoring-paragraph {
-  margin-left: 20px;
-  margin-top: -400px;
+  margin-left: 7px;
+  margin-top: -330px;
 }
 .evolution-paragraph {
   width: 370px;
-  margin-left: 0;
+  margin-left: 7;
   margin-right: 0;
   margin-top: 320px;
 }
@@ -1608,7 +1608,7 @@ gap: 40px;
 }
 
 .date-one {
-  margin-left: 20px;
+  margin-left: 10px;
   margin-top: -20px;;
 }
 
@@ -1623,6 +1623,7 @@ gap: 40px;
 
   
 }
+
 
 
 
