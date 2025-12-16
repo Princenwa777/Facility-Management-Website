@@ -1637,7 +1637,7 @@ gap: 40px;
 }
 
 .submit-btn {
-  margin-left: 5px;
+  margin-left: 4px;
 }
 
 .image-row {
@@ -1646,10 +1646,11 @@ gap: 40px;
   flex-direction: column;
   margin-left: 57px;
   margin-top: 200px;
+  align-items: center;
 }
 
 .image-row img {
-  width: 315px;
+  width: 300px;
   height:auto
 }
 
@@ -1659,18 +1660,110 @@ gap: 40px;
 
 
 .last-image-wrapper {
-  height: 1000px;
+  height: 1080px;
   top: 200px;          /* Ensures overlay doesn’t spill */
 }
 
-.fake-recaptcha input[type="checkbox"] {
-  width: 20px;
-  height: 20px;
-  margin-left: 5px;
+.fake-recaptcha {
+  padding: 10px;
+  margin-top: 15px 20px 15px 20px;
 }
   
+.cover-all {
+gap: 35px;
+top: 10%;
+left: 20%;
+}
+
+.company-logo-two .logo-two {
+  max-width: 138.5px;
+  height: auto;
+  top: 40px;
+  left: -20px;
   
 }
+
+.first-list {
+  line-height: 40px;
+}
+
+
+.second-list {
+  line-height: 40px;
+}
+
+
+.cover-icons {
+gap: 8px;
+top: 20%;
+left: 4%;
+}
+
+.address {
+  display: flex;
+ 
+}
+
+.map-pin {
+  color: red;          /* color of the location pin */
+  font-size: 20px;     /* size of the pin */
+  margin-right: 18px;   /* space between pin and text */
+  
+
+}
+
+.contact {
+  display: flex;          /* places icon and number side by side */
+}
+
+.phone-icon {
+  color: green;           /* color of the phone icon */
+  font-size: 20px;        /* size of the icon */
+  margin-right: 18px;      /* space between icon and number */
+}
+
+
+.email {
+  display: flex;
+}
+
+.email-icon {
+  font-size: 20px;
+  margin-right: 18px;
+  color: #007bff;  /* blue paper plane */
+}
+
+
+.map-wrapper {
+  max-width: 100%;  /* prevents overflow */
+  width: 343px;
+  height: 215px;    /* adjust as needed */
+  top: 14%;
+  left: 70%;
+}
+
+.map-wrapper iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.hyper-link {
+  top: 90%;
+  left: 91%;
+}
+
+}
+
+.back-to-top {
+  top: 90%;
+  left: 50%;
+}
+
+
+  
+}
+
 
 
 
