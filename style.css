@@ -1521,12 +1521,12 @@ left: 4%;
   width: 100vw;
   height: 300px;
   overflow: hidden; /* Ensures overlay doesn’t spill */
-  top: 1100px;
+  top: 1050px;
 }
 
 .short-paragraph {
   top: 85px;
-  left: 36px; 
+  left: 40px; 
 }
 
 
@@ -1544,13 +1544,13 @@ left: 4%;
 
 .new-paragraph {   
     margin-left: 50px;
-    margin-top: 1100px;
+    margin-top: 1180px;
 }
 
 
 .left-image {
-  top: 20px;         /* adjust vertical position */
-  left: 15px;          /* adjust horizontal position */
+  top: 40px;         /* adjust vertical position */
+  left: 12px;          /* adjust horizontal position */
   width: 350px;         /* container width (optional) */
 }
 
@@ -1591,7 +1591,7 @@ gap: 40px;
 
 .honoring-paragraph {
   margin-left: 30px;
-  margin-top: 30px;
+  margin-top: -50px;
 }
 .evolution-paragraph {
   width: 370px;
@@ -1614,6 +1614,7 @@ gap: 40px;
 
   
 }
+
 
 
 
