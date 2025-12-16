@@ -1549,7 +1549,7 @@ left: 4%;
 
 
 .left-image {
-  top: 40px;         /* adjust vertical position */
+  top: 30px;         /* adjust vertical position */
   left: 5px;          /* adjust horizontal position */
   width: 350px;         /* container width (optional) */
 }
@@ -1591,12 +1591,12 @@ gap: 40px;
 
 .honoring-paragraph {
   margin-left: 10px;
-  margin-top: -280px;
+  margin-top: -250px;
   width: 350px;
 }
 .evolution-paragraph {
   width: 370px;
-  margin-left: 10px;
+  margin-left: 15px;
   margin-right: 0;
   margin-top: 320px;
 }
@@ -1624,6 +1624,7 @@ gap: 40px;
 
   
 }
+
 
 
 
