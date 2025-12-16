@@ -1543,14 +1543,14 @@ left: 4%;
 }
 
 .new-paragraph {   
-    margin-left: 50px;
-    margin-top: 1180px;
+    margin-left: 20px;
+    margin-top: 1140px;
 }
 
 
 .left-image {
   top: 40px;         /* adjust vertical position */
-  left: 12px;          /* adjust horizontal position */
+  left: 8px;          /* adjust horizontal position */
   width: 350px;         /* container width (optional) */
 }
 
@@ -1590,8 +1590,8 @@ gap: 40px;
 }
 
 .honoring-paragraph {
-  margin-left: 30px;
-  margin-top: -50px;
+  margin-left: 20px;
+  margin-top: -200px;
 }
 .evolution-paragraph {
   width: 370px;
@@ -1611,9 +1611,18 @@ gap: 40px;
   margin-top: -20px;;
 }
 
+.green-read-more {
+  color: rgb(97, 206, 112);
+}
+
+.green-read {
+  margin-left: 20px;
+} 
+
 
   
 }
+
 
 
 
