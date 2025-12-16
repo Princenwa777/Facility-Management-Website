@@ -1596,7 +1596,7 @@ gap: 40px;
   width: 370px;
   margin-left: 10px;
   margin-right: 0;
-  margin-top: 440px;
+  margin-top: 460px;
   width: 400px;
 }
 
@@ -1622,10 +1622,24 @@ gap: 40px;
 
 .pagination {
   margin-left: 8px;
-  margin-top: 85px;
+  margin-top: 100px;
 }
+
+.big-paragraph {
+  margin-top: 215px;
+ }
+
+ .recaptcha-right {
+  left: 80px;
+}
+
+.submit-btn {
+  margin-left: 20px;
+}
+
   
 }
+
 
 
 
