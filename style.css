@@ -1507,7 +1507,7 @@ left: 4%;
   
 .unordered-list {
   top: 1700px;
-  left: 23px;
+  left: 20px;
   line-height: 31px;
 }
 
@@ -1526,13 +1526,13 @@ left: 4%;
 
 .short-paragraph {
   top: 85px;
-  left: 30px; 
+  left: 32px; 
 }
 
 
 .read-copy{
-  left: 100px;
-  top: 120px;
+  left: 103px;
+  top: 160px;
 }
   
 .video-container {
@@ -1549,8 +1549,8 @@ left: 4%;
 
 
 .left-image {
-  top: 300px;         /* adjust vertical position */
-  left: 20px;          /* adjust horizontal position */
+  top: 180px;         /* adjust vertical position */
+  left: 17px;          /* adjust horizontal position */
   width: 350px;         /* container width (optional) */
 }
 
@@ -1614,6 +1614,7 @@ gap: 40px;
 
   
 }
+
 
 
 
