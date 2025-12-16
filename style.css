@@ -1550,14 +1550,14 @@ left: 4%;
 
 .left-image {
   top: 40px;         /* adjust vertical position */
-  left: 8px;          /* adjust horizontal position */
+  left: 5px;          /* adjust horizontal position */
   width: 350px;         /* container width (optional) */
 }
 
 
 .middle-image {
-  top: 650px;           /* adjust vertical position */
-  left: 20px;          /* adjust horizontal position */
+  top: 450px;           /* adjust vertical position */
+  left: 5px;          /* adjust horizontal position */
   width: 360px;         /* container width (optional) */
 } 
 
@@ -1582,7 +1582,7 @@ gap: 40px;
 .retiring-paragraph,
 .evolution-paragraph {
   margin-left: 30px;
-  margin-top: 400px;
+  margin-top: 350px;
   width: 400px;
   margin-right: 0;
   margin-left: 0;
@@ -1591,7 +1591,7 @@ gap: 40px;
 
 .honoring-paragraph {
   margin-left: 20px;
-  margin-top: -200px;
+  margin-top: -1150px;
 }
 .evolution-paragraph {
   width: 370px;
@@ -1601,13 +1601,13 @@ gap: 40px;
 
 
 .date {
-  margin-left: 30px;
+  margin-left: px20;
   margin-top: -20px;
   
 }
 
 .date-one {
-  margin-left: 30px;
+  margin-left: 20px;
   margin-top: -20px;;
 }
 
@@ -1622,6 +1622,7 @@ gap: 40px;
 
   
 }
+
 
 
 
