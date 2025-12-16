@@ -1507,7 +1507,7 @@ left: 4%;
   
 .unordered-list {
   top: 1700px;
-  left: 20px;
+  left: 18px;
   line-height: 31px;
 }
 
@@ -1526,13 +1526,13 @@ left: 4%;
 
 .short-paragraph {
   top: 85px;
-  left: 32px; 
+  left: 36px; 
 }
 
 
 .read-copy{
   left: 103px;
-  top: 160px;
+  top: 200px;
 }
   
 .video-container {
@@ -1549,7 +1549,7 @@ left: 4%;
 
 
 .left-image {
-  top: 180px;         /* adjust vertical position */
+  top: 140px;         /* adjust vertical position */
   left: 17px;          /* adjust horizontal position */
   width: 350px;         /* container width (optional) */
 }
@@ -1591,7 +1591,7 @@ gap: 40px;
 
 .honoring-paragraph {
   margin-left: 30px;
-  margin-top: 300px;
+  margin-top: 180px;
 }
 .evolution-paragraph {
   width: 370px;
@@ -1614,6 +1614,7 @@ gap: 40px;
 
   
 }
+
 
 
 
