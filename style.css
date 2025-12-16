@@ -1644,13 +1644,12 @@ gap: 40px;
   display: flex;
   gap: 10px;
   flex-direction: column;
-  margin-left: 57px;
   margin-top: 200px;
   align-items: center;
 }
 
 .image-row img {
-  width: 300px;
+  width: 270px;
   height:auto
 }
 
@@ -1678,15 +1677,15 @@ left: 20%;
 .company-logo-two .logo-two {
   max-width: 138.5px;
   height: auto;
-  top: 40px;
-  left: -20px;
+  top: 15px;
+  left: 10px;
   
 }
 
 .first-list {
   line-height: 40px;
+  display: inline-block;
 }
-
 
 .second-list {
   line-height: 40px;
@@ -1695,7 +1694,7 @@ left: 20%;
 
 .cover-icons {
 gap: 8px;
-top: 20%;
+top: 15%;
 left: 4%;
 }
 
@@ -1763,6 +1762,7 @@ left: 4%;
 
   
 }
+
 
 
 
