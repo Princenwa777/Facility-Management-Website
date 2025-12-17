@@ -1622,7 +1622,8 @@ gap: 40px;
 }
 
 .submit-btn {
-  margin-left: -4px;
+  display: flex;
+  align-items: center;
 }
 
 .image-row {
@@ -1762,6 +1763,7 @@ left: 4%;
 
   
 }
+
 
 
 
