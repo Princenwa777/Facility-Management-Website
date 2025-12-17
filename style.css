@@ -1152,15 +1152,6 @@ flex-wrap: wrap;
   background-color: #218838;
 }
 
-/* Responsive for mobile */
-@media(max-width: 600px) {
-  .fake-recaptcha {
-    transform: scale(0.9);
-  }
-}
-
-
-
 .image-row {
   display: flex;
   gap: 10px;
@@ -1172,13 +1163,6 @@ flex-wrap: wrap;
 .image-row img {
   width: 200px;
   height:auto
-}
-
-@media (max-width: 600px) {
-.image-row img {
-  width: 120px;
-}
-
 }
 
 .decorative-pattern-two {
@@ -1646,6 +1630,7 @@ gap: 40px;
   flex-direction: column;
   margin-top: 200px;
   align-items: center;
+  border: 2px solid red;
 }
 
 .image-row img {
@@ -1663,9 +1648,11 @@ gap: 40px;
   top: 200px;          /* Ensures overlay doesn’t spill */
 }
 
-.fake-recaptcha {
-  padding: 10px 40px 10px 40px;
-}
+
+  .fake-recaptcha {
+    transform: scale(1.0);
+  }
+
   
 .cover-all {
 gap: 35px;
@@ -1770,6 +1757,7 @@ left: 4%;
 
   
 }
+
 
 
 
