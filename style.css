@@ -1632,6 +1632,10 @@ gap: 40px;
   margin-top: 200px;
   align-items: center;
   width: 100%;
+  margin: 0;
+  padding: 0;
+  position: static;
+  transform: none;
 }
 
 .image-row img {
@@ -1758,6 +1762,7 @@ left: 4%;
 
   
 }
+
 
 
 
