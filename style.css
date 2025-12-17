@@ -1593,7 +1593,7 @@ gap: 40px;
   width: 350px;
 }
 .evolution-paragraph {
-  width: 330px;
+  width: 300px;
   margin-left: 10px;
   margin-right: 0;
   margin-top: 470px;
@@ -1637,7 +1637,7 @@ gap: 40px;
 }
 
 .submit-btn {
-  margin-left: 4px;
+  margin-left: -7px;
 }
 
 .image-row {
@@ -1646,10 +1646,11 @@ gap: 40px;
   flex-direction: column;
   margin-top: 200px;
   justify-content: center;
+  align-items: center;
 }
 
 .image-row img {
-  width: 270px;
+  width: 250px;
   height:auto
 }
 
@@ -1659,12 +1660,12 @@ gap: 40px;
 
 
 .last-image-wrapper {
-  height: 1080px;
+  height: 1030px;
   top: 200px;          /* Ensures overlay doesn’t spill */
 }
 
 .fake-recaptcha {
-  padding: 10px 20px 10px 20px;
+  padding: 10px 30px 10px 30px;
 }
   
 .cover-all {
@@ -1676,22 +1677,22 @@ left: 20%;
 .company-logo-two .logo-two {
   max-width: 138.5px;
   height: auto;
-  top: 10px;
-  left: 5px;
+  top: -10px;
+  left: 1px;
   
 }
 
 .first-list {
   position: absolute;
-  top: 40%;
-  left: 10%;
+  top: 50%;
+  left: 5%;
 
 }
 
 .second-list {
   position: absolute;
-  top: 40%;
-  left: 40%;
+  top: 50%;
+  left: 50%;
 }
 
 
@@ -1738,7 +1739,7 @@ left: 4%;
 
 .map-wrapper {
   max-width: 100%;  /* prevents overflow */
-  width: 98px;
+  width: 150px;
   height: 215px;    /* adjust as needed */
   top: 60%;
   left: 10%;
@@ -1770,6 +1771,7 @@ left: 4%;
 
   
 }
+
 
 
 
