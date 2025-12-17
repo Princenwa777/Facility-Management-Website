@@ -1676,21 +1676,21 @@ left: 20%;
 .company-logo-two .logo-two {
   max-width: 138.5px;
   height: auto;
-  top: -50px;
-  left: -1px;
+  top: -80px;
+  left: -20px;
   
 }
 
 .first-list {
   position: absolute;
-  top: 50%;
+  top: 70%;
   left: -30%;
 
 }
 
 .second-list {
   position: absolute;
-  top: 50%;
+  top: 70%;
   left: 100%;
 }
 
@@ -1738,8 +1738,8 @@ left: 4%;
 
 .map-wrapper {
   max-width: 100%;  /* prevents overflow */
-  width: 165px;
-  height: 215px;    /* adjust as needed */
+  width: 167px;
+  height: 217px;    /* adjust as needed */
   top: 60%;
   left: 10%;
 }
@@ -1770,6 +1770,7 @@ left: 4%;
 
   
 }
+
 
 
 
