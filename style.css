@@ -1609,6 +1609,7 @@ gap: 40px;
   width: 100%;
   padding: 0;
   transform: none;
+  position: static;
   
 }
 
@@ -1764,6 +1765,7 @@ left: 4%;
 
   
 }
+
 
 
 
