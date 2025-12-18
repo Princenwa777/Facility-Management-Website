@@ -1577,7 +1577,7 @@ gap: 40px;
   width: 350px;
 }
 .evolution-paragraph {
-  width: 300px;
+  width: 270px;
   margin-left: 10px;
   margin-right: 0;
   margin-top: 470px;
@@ -1606,7 +1606,7 @@ gap: 40px;
 
 .pagination {
   margin-top: 100px;
-  align-items: center:
+  align-items: center;
   
 }
 
@@ -1621,11 +1621,10 @@ gap: 40px;
   left: 80px;
 }
 
+/* Submit Button */
 .submit-btn {
-  display: flex;
-  align-items: center;
-}
-
+  padding: 10px 15px;
+  
 .image-row {
   display: flex;
   gap: 10px;
@@ -1763,6 +1762,7 @@ left: 4%;
 
   
 }
+
 
 
 
