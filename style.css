@@ -1684,6 +1684,7 @@ left: 20%;
   position: absolute;
   top: 350%;
   left: 70%;
+  white-space: nowrap;
 }
 
 
@@ -1754,6 +1755,7 @@ left: 1%;
 }
   
 }
+
 
 
 
