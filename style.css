@@ -1607,8 +1607,8 @@ gap: 40px;
   margin-top: 100px;
   align-items: center;
   width: 100%;
-  margin: 0;
   padding: 0;
+  transform: none;
   
 }
 
@@ -1764,6 +1764,7 @@ left: 4%;
 
   
 }
+
 
 
 
