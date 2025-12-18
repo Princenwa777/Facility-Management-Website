@@ -1668,7 +1668,7 @@ left: 20%;
 .company-logo-two .logo-two {
   max-width: 138.5px;
   height: auto;
-  top: -100px;
+  top: -70px;
   left: -70px;
   
 }
@@ -1689,7 +1689,7 @@ left: 20%;
 
 .cover-icons {
 gap: 8px;
-top: 30%;
+top: 15%;
 left: 1%;
 }
 
@@ -1743,17 +1743,18 @@ left: 1%;
 }
 
 .back-to-top {
-  top: 80%;
+  top: 95%;
   left: 50%;
 }
 
 .hyper-link {
   position: absolute;
-  top: 80%;
+  top: 95%;
   left: 1%;
 }
   
 }
+
 
 
 
