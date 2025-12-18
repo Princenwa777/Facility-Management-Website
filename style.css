@@ -1668,8 +1668,8 @@ left: 20%;
 .company-logo-two .logo-two {
   max-width: 138.5px;
   height: auto;
-  top: -100px;
-  left: -30px;
+  top: -80px;
+  left: -50px;
   
 }
 
@@ -1732,8 +1732,8 @@ left: 1%;
   max-width: 100%;  /* prevents overflow */
   width: 167px;
   height: 217px;    /* adjust as needed */
-  top: 75%;
-  left: 10%;
+  top: 85%;
+  left: 1%;
 }
 
 .map-wrapper iframe {
@@ -1743,23 +1743,18 @@ left: 1%;
 }
 
 .back-to-top {
-  top: 90%;
+  top: 100%;
   left: 50%;
 }
 
 .hyper-link {
   position: absolute;
-  top: 90%;
-  left: 10%;
+  top: 100%;
+  left: 1%;
 }
-
-.back-to-top {
-  top: 90%;
-  left: 50%;  
-}
-
   
 }
+
 
 
 
