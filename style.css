@@ -1623,6 +1623,7 @@ gap: 40px;
 /* Submit Button */
 .submit-btn {
   padding: 10px 15px;
+}
   
 .image-row {
   display: flex;
@@ -1741,13 +1742,6 @@ left: 4%;
   border: 0;
 }
 
-.hyper-link {
-  top: 90%;
-  left: 91%;
-}
-
-}
-
 .back-to-top {
   top: 90%;
   left: 50%;
@@ -1761,6 +1755,7 @@ left: 4%;
 
   
 }
+
 
 
 
