@@ -1635,6 +1635,7 @@ gap: 40px;
   padding: 0;
   position: static;
   transform: none;
+  flex-wrap: nowrap;
 }
 
 .image-row img {
@@ -1761,6 +1762,7 @@ left: 4%;
 
   
 }
+
 
 
 
