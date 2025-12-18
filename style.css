@@ -1649,7 +1649,7 @@ gap: 40px;
 
 
 .last-image-wrapper {
-  height: 1020px;
+  height: 1010px;
   top: 200px;          /* Ensures overlay doesn’t spill */
 }
 
@@ -1668,28 +1668,28 @@ left: 20%;
 .company-logo-two .logo-two {
   max-width: 138.5px;
   height: auto;
-  top: -80px;
-  left: -50px;
+  top: -100px;
+  left: -70px;
   
 }
 
 .first-list {
   position: absolute;
-  top: 300%;
+  top: 350%;
   left: -70%;
 
 }
 
 .second-list {
   position: absolute;
-  top: 300%;
+  top: 350%;
   left: 100%;
 }
 
 
 .cover-icons {
 gap: 8px;
-top: 10%;
+top: 30%;
 left: 1%;
 }
 
@@ -1733,7 +1733,7 @@ left: 1%;
   width: 167px;
   height: 217px;    /* adjust as needed */
   top: 85%;
-  left: 1%;
+  left: 4%;
 }
 
 .map-wrapper iframe {
@@ -1743,17 +1743,18 @@ left: 1%;
 }
 
 .back-to-top {
-  top: 100%;
+  top: 80%;
   left: 50%;
 }
 
 .hyper-link {
   position: absolute;
-  top: 100%;
+  top: 80%;
   left: 1%;
 }
   
 }
+
 
 
 
