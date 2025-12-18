@@ -1668,7 +1668,7 @@ left: 20%;
 .company-logo-two .logo-two {
   max-width: 138.5px;
   height: auto;
-  top: -70px;
+  top: -60px;
   left: -70px;
   
 }
@@ -1683,7 +1683,7 @@ left: 20%;
 .second-list {
   position: absolute;
   top: 350%;
-  left: 100%;
+  left: 90%;
 }
 
 
@@ -1732,7 +1732,7 @@ left: 1%;
   max-width: 100%;  /* prevents overflow */
   width: 167px;
   height: 217px;    /* adjust as needed */
-  top: 85%;
+  top: 70%;
   left: 4%;
 }
 
@@ -1754,6 +1754,7 @@ left: 1%;
 }
   
 }
+
 
 
 
