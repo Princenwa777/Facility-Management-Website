@@ -1406,13 +1406,13 @@ left: 4%;
 }
 
   .slider {
-  height: 825px;
+  height: 830px;
   overflow: visible;
 }
 
 .hero-text,
 .hero-button {
-  bottom: 690px;
+  bottom: 680px;
 }
 
   .cleaning-company {
@@ -1755,9 +1755,10 @@ left: 1%;
   left: 1%;
 }
   .badge-overlay {
-  bottom: 18%;               /* 10% from bottom of carousel */
+  bottom: 15%;               /* 10% from bottom of carousel */
 }
 }
+
 
 
 
