@@ -1754,8 +1754,17 @@ left: 1%;
   top: 95%;
   left: 1%;
 }
-  
+  .badge-overlay {
+  position: absolute;        /* overlay on top of slides */
+  bottom: 25%;               /* 10% from bottom of carousel */
+  right: 5%;                 /* 5% from right edge */
+  width: 100px;              /* adjust size as needed */
+  height: 100px;
+  z-index: 10;
+  margin-right: 105px;                /* on top of slides */
 }
+}
+
 
 
 
