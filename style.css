@@ -1407,6 +1407,7 @@ left: 4%;
 
   .slider {
   height: 825px;
+  overflow: visible;
 }
 
 .hero-text,
@@ -1755,6 +1756,7 @@ left: 1%;
 }
   
 }
+
 
 
 
