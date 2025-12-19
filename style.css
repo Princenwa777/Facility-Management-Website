@@ -1755,10 +1755,11 @@ left: 1%;
 }
 
 .badge-overlay {
-  position: relative;      
+  position: absolute;;      
 }
   
 }
+
 
 
 
