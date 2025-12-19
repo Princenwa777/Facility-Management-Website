@@ -1683,7 +1683,7 @@ left: 20%;
 .second-list {
   position: absolute;
   top: 350%;
-  left: 70%;
+  left: 100%;
   white-space: nowrap;
 }
 
@@ -1753,8 +1753,13 @@ left: 1%;
   top: 95%;
   left: 1%;
 }
+
+.badge-overlay {
+  position: relative;      
+}
   
 }
+
 
 
 
