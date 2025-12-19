@@ -311,7 +311,7 @@ html {
   bottom: 280px;
   transform: translateY(210px); /* start low */
   opacity: 0;
-  transition: transform 0.8s ease-out, opacity 0.8s ease-out;
+  transition: transform 1.2s ease-out, opacity 1.2s ease-out;
 }
 
 
@@ -1388,7 +1388,7 @@ left: 4%;
 .scroll-reveal {
   position: relative;
   opacity: 0;               /* invisible at first */
-  transform: translateY(50px); /* start 50px lower */
+  transform: translateY(80px); /* start 50px lower */
   transition: all 0.8s ease-out; /* smooth transition */
 }
 .scroll-reveal.active {
@@ -1758,6 +1758,7 @@ left: 1%;
   bottom: 13%;               /* 10% from bottom of carousel */
 }
 }
+
 
 
 
