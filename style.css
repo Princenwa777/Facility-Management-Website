@@ -1403,9 +1403,9 @@ left: 4%;
   width: 100%;
   background-color: #222;
   color: #fff;
-  padding: 8px 20px;
+  padding: 5px 20px;
   display: flex;
-  justify-content: space-between;
+  gap: 20px;
   align-items: center;
   box-shadow: 0 -2px 10px rgba(0,0,0,0.3);
   z-index: 10000;
@@ -1413,7 +1413,7 @@ left: 4%;
 
 .cookie-banner p {
   margin-left: 250px;
-  width: 420px;
+  width: 470px;
   font-family: Nunito, sans-serif;
   font-size: 14px;
   font-weight: 400;
@@ -1435,8 +1435,6 @@ left: 4%;
   border-radius: 10px;
   font-family:  Nunito, sans-serif; 
   font-size: 14px;
-  display: flex;
-  gap: 20px;
 }
 
 #acceptBtn { background-color: green; color: white; }
@@ -1810,6 +1808,7 @@ left: 1%;
 }
   
 }
+
 
 
 
