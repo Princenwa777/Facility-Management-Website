@@ -1403,7 +1403,7 @@ left: 4%;
   width: 100%;
   background-color: #222;
   color: #fff;
-  padding: -10px 20px;
+  padding: 50px 20px;
   display: flex;
   gap: 45px;
   align-items: center;
@@ -1413,7 +1413,7 @@ left: 4%;
 
 .cookie-banner p {
   margin-left: 250px;
-  width: 500px;
+  width: 520px;
   font-family: Nunito, sans-serif;
   font-size: 14px;
   font-weight: 400;
@@ -1813,6 +1813,7 @@ left: 1%;
 }
   
 }
+
 
 
 
