@@ -1413,7 +1413,7 @@ left: 4%;
 
 .cookie-banner p {
   margin-left: 250px;
-  width: 450px;
+  width: 500px;
   font-family: Nunito, sans-serif;
   font-size: 14px;
   font-weight: 400;
@@ -1429,7 +1429,7 @@ left: 4%;
 
 .cookie-buttons button {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 20px;
   margin-right: 70px;
   padding: 10px 20px;
@@ -1442,7 +1442,9 @@ left: 4%;
 
 #acceptBtn { background-color: green; color: white; }
 #rejectBtn { background-color: red; color: white; }
-#closeBtn { background-color: gray; color: white; }
+#closeBtn { background-color: gray; color: white; 
+  padding: 10px 20px;
+  border-radius: 25px;}
 
 
 /* ===== MOBILE RESPONSIVE FIXES ===== */
@@ -1811,6 +1813,7 @@ left: 1%;
 }
   
 }
+
 
 
 
