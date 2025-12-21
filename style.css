@@ -1412,8 +1412,14 @@ left: 4%;
 }
 
 .cookie-banner p {
-  margin: 0;
-  width: 300px;
+  margin-left: 50px;
+  width: 250px;
+  font-family: Nunito, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  
+  
+  
 }
 
 .cookie-banner a {
@@ -1422,8 +1428,8 @@ left: 4%;
 }
 
 .cookie-buttons button {
-  margin-left: 10px;
-  padding: 5px 10px;
+  margin-left: 30px;
+  padding: 10px 15px;
   border: none;
   cursor: pointer;
   border-radius: 5px;
@@ -1800,6 +1806,7 @@ left: 1%;
 }
   
 }
+
 
 
 
