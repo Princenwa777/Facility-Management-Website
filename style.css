@@ -1403,7 +1403,7 @@ left: 4%;
   width: 100%;
   background-color: #222;
   color: #fff;
-  padding: -40px 20px;
+  padding: -30px 20px;
   display: flex;
   gap: 45px;
   align-items: center;
@@ -1428,9 +1428,6 @@ left: 4%;
 }
 
 .cookie-buttons button {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
   gap: 20px;
   margin-right: 70px;
   padding: 10px 30px;
@@ -1814,6 +1811,7 @@ left: 1%;
 }
   
 }
+
 
 
 
