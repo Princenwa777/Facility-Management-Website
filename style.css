@@ -1403,7 +1403,7 @@ left: 4%;
   width: 100%;
   background-color: #222;
   color: #fff;
-  padding: 50px 20px;
+  padding: -20px 20px;
   display: flex;
   gap: 45px;
   align-items: center;
@@ -1413,7 +1413,7 @@ left: 4%;
 
 .cookie-banner p {
   margin-left: 250px;
-  width: 520px;
+  width: 426.438px;
   font-family: Nunito, sans-serif;
   font-size: 14px;
   font-weight: 400;
@@ -1429,10 +1429,9 @@ left: 4%;
 
 .cookie-buttons button {
   display: flex;
-  flex-direction: row;
   gap: 20px;
   margin-right: 70px;
-  padding: 10px 20px;
+  padding: 10px 30px;
   border: none;
   cursor: pointer;
   border-radius: 20px;
@@ -1813,6 +1812,7 @@ left: 1%;
 }
   
 }
+
 
 
 
