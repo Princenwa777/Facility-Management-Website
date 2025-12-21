@@ -1413,7 +1413,7 @@ left: 4%;
 
 .cookie-banner p {
   margin-left: 50px;
-  width: 250px;
+  width: 350px;
   font-family: Nunito, sans-serif;
   font-size: 15px;
   font-weight: 400;
@@ -1428,11 +1428,13 @@ left: 4%;
 }
 
 .cookie-buttons button {
-  margin-left: 30px;
+  margin-left: 60px;
   padding: 10px 15px;
   border: none;
   cursor: pointer;
   border-radius: 5px;
+  font-family:  Nunito, sans-serif; 
+  font-size: 14px;
 }
 
 #acceptBtn { background-color: green; color: white; }
@@ -1806,6 +1808,7 @@ left: 1%;
 }
   
 }
+
 
 
 
