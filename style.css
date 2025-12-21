@@ -1405,6 +1405,7 @@ left: 4%;
   color: #fff;
   padding: -30px 20px;
   display: flex;
+  flex-wrap: nowrap;
   gap: 45px;
   align-items: center;
   box-shadow: 0 -2px 10px rgba(0,0,0,0.3);
@@ -1811,6 +1812,7 @@ left: 1%;
 }
   
 }
+
 
 
 
