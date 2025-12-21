@@ -1405,7 +1405,7 @@ left: 4%;
   color: #fff;
   padding: -30px 20px;
   display: flex;
-  gap: 20px;
+  gap: 30px;
   align-items: center;
   box-shadow: 0 -2px 10px rgba(0,0,0,0.3);
   z-index: 10000;
@@ -1413,7 +1413,7 @@ left: 4%;
 
 .cookie-banner p {
   margin-left: 250px;
-  width: 600px;
+  width: 570px;
   font-family: Nunito, sans-serif;
   font-size: 14px;
   font-weight: 400;
@@ -1439,8 +1439,8 @@ left: 4%;
 #acceptBtn { background-color: green; color: white; }
 #rejectBtn { background-color: red; color: white; }
 #closeBtn { background-color: gray; color: white; 
-  padding: 10px 20px;
-  border-radius: 25px;}
+  padding: 8px 18px;
+  border-radius: 30px;}
 
 
 /* ===== MOBILE RESPONSIVE FIXES ===== */
@@ -1809,6 +1809,7 @@ left: 1%;
 }
   
 }
+
 
 
 
