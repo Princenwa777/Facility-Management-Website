@@ -1431,6 +1431,7 @@ left: 4%;
   display: flex;
   flex-direction: row;
   gap: 10px;
+  width: auto !important;
   padding: 10px 30px;
   border: none;
   cursor: pointer;
@@ -1812,6 +1813,7 @@ left: 1%;
 }
   
 }
+
 
 
 
