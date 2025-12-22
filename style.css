@@ -1820,14 +1820,14 @@ left: 1%;
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 20 20px;
+  height: 90px;
   display: flex;
   gap: 35px;
 }
   
 
 .cookie-banner p {
-  margin-left: 20px;
+  margin-left: 0;
   margin-bottom: 30px
   width: 80%;
 
@@ -1849,6 +1849,7 @@ left: 1%;
 }
 
   .cookie-buttons {
+  position: relative;
   display: flex;
   gap: 10px;
   bottom: 20px;
@@ -1862,6 +1863,7 @@ left: 1%;
   border-radius: 45px;}
   
 }
+
 
 
 
