@@ -1429,20 +1429,21 @@ left: 4%;
 
 .cookie-buttons button {
   display: inline-flex;
-  gap: 100px;
+  gap: 20px;
   padding: 10px 30px;
   border: none;
   cursor: pointer;
   border-radius: 20px;
   font-family:  Nunito, sans-serif; 
   font-size: 14px;
+  margin: 0;
 }
 
 #acceptBtn { background-color: green; color: white; }
 #rejectBtn { background-color: red; color: white; }
 #closeBtn { background-color: gray; color: white; 
   padding: 8px 16px;
-  border-radius: 50px;}
+  border-radius: 40px;}
 
 
 /* ===== MOBILE RESPONSIVE FIXES ===== */
@@ -1845,6 +1846,7 @@ left: 1%;
   border-radius: 40px;}
   
 }
+
 
 
 
