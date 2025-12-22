@@ -1817,7 +1817,7 @@ left: 1%;
   bottom: 0;
   left: 0;
   width: 100%;
-  padding: 0px 20px;
+  height: 30px;
   display: flex;
   gap: 35px;
 }
@@ -1838,13 +1838,17 @@ left: 1%;
 }
 
 .cookie-buttons button {
-
   gap: 10px;
   padding: 10px 30px;
   border-radius: 20px;
 
 }
 
+  .cookie-buttons {
+  display: flex;
+  gap: 10px;
+  }
+  
 #acceptBtn { background-color: green; color: white; }
 #rejectBtn { background-color: red; color: white; }
 #closeBtn { background-color: gray; color: white; 
@@ -1852,6 +1856,7 @@ left: 1%;
     border-radius: 40px;}
   
 }
+
 
 
 
