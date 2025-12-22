@@ -248,6 +248,36 @@ window.addEventListener('scroll', revealOnScroll);
 window.addEventListener('load', revealOnScroll); // reveal visible elements on load
 
 
+const banner = document.getElementById("cookieBanner");
+const acceptBtn = document.getElementById("acceptBtn");
+const rejectBtn = document.getElementById("rejectBtn");
+const closeBtn = document.getElementById("closeBtn");
+
+// Check if the user has already interacted before
+const bannerInteracted = localStorage.getItem("cookieBannerInteracted");
+
+// Show banner if the user has not interacted before
+if (!bannerInteracted) {
+  banner.classList.add("show"); // show banner
+}
+
+// Accept button
+acceptBtn.addEventListener("click", () => {
+  banner.style.display = "none";
+  localStorage.setItem("cookieBannerInteracted", "true");
+});
+
+// Reject button
+rejectBtn.addEventListener("click", () => {
+  banner.style.display = "none";
+  localStorage.setItem("cookieBannerInteracted", "true");
+});
+
+// Cancel button
+closeBtn.addEventListener("click", () => {
+  banner.style.display = "none";
+  localStorage.setItem("cookieBannerInteracted", "true");
+});
 
 
 
