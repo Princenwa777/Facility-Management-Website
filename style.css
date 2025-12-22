@@ -1429,8 +1429,7 @@ left: 4%;
 
 .cookie-buttons button {
   display: inline-flex;
-  flex-direction: row !important;
-  gap: 10px;
+  gap: 25px
   padding: 10px 30px;
   border: none;
   cursor: pointer;
@@ -1812,6 +1811,7 @@ left: 1%;
 }
   
 }
+
 
 
 
