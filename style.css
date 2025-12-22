@@ -1429,7 +1429,7 @@ left: 4%;
 
 .cookie-buttons button {
   display: inline-flex;
-  gap: 25px;
+  gap: 50px;
   padding: 10px 30px;
   border: none;
   cursor: pointer;
@@ -1441,8 +1441,8 @@ left: 4%;
 #acceptBtn { background-color: green; color: white; }
 #rejectBtn { background-color: red; color: white; }
 #closeBtn { background-color: gray; color: white; 
-  padding: 8px 18px;
-  border-radius: 30px;}
+  padding: 8px 16px;
+  border-radius: 40px;}
 
 
 /* ===== MOBILE RESPONSIVE FIXES ===== */
@@ -1811,6 +1811,7 @@ left: 1%;
 }
   
 }
+
 
 
 
