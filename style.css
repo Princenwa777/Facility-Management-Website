@@ -1439,7 +1439,7 @@ left: 4%;
 
 .cookie-buttons {
   display: flex;
-  gap: 10px;
+  gap: 10px;}
 
 #acceptBtn { background-color: green; color: white; }
 #rejectBtn { background-color: red; color: white; }
@@ -1848,6 +1848,7 @@ left: 1%;
     border-radius: 40px;}
   
 }
+
 
 
 
