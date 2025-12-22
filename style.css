@@ -1809,8 +1809,43 @@ left: 1%;
   position: relative;
   left: 55px;
 }
+
+.cookie-banner {
+  padding: -30px 20px;
+  display: flex;
+  gap: 35px;
+}
+
+.cookie-banner p {
+  margin-left: 250px;
+  width: 560px;
+
+  
+  
   
 }
+
+.cookie-banner a {
+  color: #00f;
+  text-decoration: underline;
+}
+
+.cookie-buttons button {
+  display: inline-flex;
+  gap: 50px;
+  padding: 10px 30px;
+  border-radius: 20px;
+
+}
+
+#acceptBtn { background-color: green; color: white; }
+#rejectBtn { background-color: red; color: white; }
+#closeBtn { background-color: gray; color: white; 
+  padding: 8px 16px;
+  border-radius: 40px;}
+  
+}
+
 
 
 
