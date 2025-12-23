@@ -1446,7 +1446,7 @@ left: 4%;
 #closeBtn { background-color:  #222; color: white; 
   padding: 6px 15px;
   border-radius: 60px;
-  border: 1px solid-white; 
+  border: 1px solid white; 
   }
 
 #acceptBtn:hover {
@@ -1887,6 +1887,7 @@ color: red;
 } 
   
 }
+
 
 
 
