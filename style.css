@@ -1838,10 +1838,10 @@ left: 1%;
 
 .cookie-banner p {
   margin-bottom: 30px;
-  width: 82% !important;
+  width: 80% !important;
   margin-left: 0 !important;
   margin-bottom: 20px;
-  line-height: 10px;
+  line-height: 15px;
 
   
   
@@ -1865,14 +1865,14 @@ left: 1%;
   display: flex;
   gap: 10px;
   bottom: 7px;
-  left: -40px;
+  left: -50px;
   }
   
 #acceptBtn { background-color: green; color: white; }
 #rejectBtn { background-color: red; color: white; }
 #closeBtn { background-color: #222; color: white; 
-  padding: 8px 15px;
-  border-radius: 60px;}
+  padding: 8px 14px;
+  border-radius: 65px;}
   
   
   #acceptBtn:hover,
@@ -1888,6 +1888,7 @@ color: red;
 } 
   
 }
+
 
 
 
