@@ -1444,10 +1444,17 @@ left: 4%;
 #acceptBtn { background-color: green; color: white; transition: background-color 0.15s, color 0.15s }
 #rejectBtn { background-color: red; color: white;  transition: background-color 0.15s, color 0.15s }
 #closeBtn { background-color:  #222; color: white; 
-  padding: 8px 16px;
-  border-radius: 40px;
-  border: 2px solid white;
+  padding: 7px 15px;
+  border-radius: 50px;
+  border: 1px white;
+  border-style:
   }
+
+.close-icon {
+  font-size: 22px;
+  light-height: 1;
+  font-weight: 300;
+}
 
 #acceptBtn:hover {
   background-color: white;
@@ -1872,7 +1879,8 @@ left: 1%;
 #closeBtn { background-color: #222; color: white; 
   padding: 8px 16px;
   border-radius: 45px;}
-
+  
+  
   #acceptBtn:hover,
   #acceptBtn:active {
   background-color: white;
@@ -1886,6 +1894,7 @@ color: red;
 } 
   
 }
+
 
 
 
