@@ -1444,10 +1444,10 @@ left: 4%;
 #acceptBtn { background-color: green; color: white; transition: background-color 0.15s, color 0.15s }
 #rejectBtn { background-color: red; color: white;  transition: background-color 0.15s, color 0.15s }
 #closeBtn { background-color:  #222; color: white; 
-  padding: 7px 15px;
-  border-radius: 50px;
-  border: 1px solid white;
-  border-style:
+  padding: 6px 15px;
+  border-radius: 60px;
+  border-width: 1px 
+  border-style: solid;
   }
 
 #acceptBtn:hover {
@@ -1839,7 +1839,7 @@ left: 1%;
 
 .cookie-banner p {
   margin-bottom: 30px;
-  width: 90% !important;
+  width: 85% !important;
   margin-left: 0 !important;
   margin-bottom: 20px;
 
@@ -1865,14 +1865,14 @@ left: 1%;
   display: flex;
   gap: 10px;
   bottom: 10px;
-  left: -20px;
+  left: -30px;
   }
   
 #acceptBtn { background-color: green; color: white; }
 #rejectBtn { background-color: red; color: white; }
 #closeBtn { background-color: #222; color: white; 
   padding: 8px 16px;
-  border-radius: 45px;}
+  border-radius: 50px;}
   
   
   #acceptBtn:hover,
@@ -1888,6 +1888,7 @@ color: red;
 } 
   
 }
+
 
 
 
