@@ -1450,10 +1450,6 @@ left: 4%;
   border: 1px solid white; 
   font-size: 0;
   }
-.close-icon {
-    font-size: 24px;
-    font-weight: 300;
-    line-height: 1;}
 
 #acceptBtn:hover {
   background-color: white;
@@ -1836,7 +1832,7 @@ left: 1%;
   bottom: 0;
   left: 0;
   width: 100%;
-  padding: 10px 20px;
+  padding: 5px 20px;
   display: flex;
   gap: 35px;
   border-top: 1px solid white;
@@ -1886,12 +1882,7 @@ left: 1%;
   
   }
 
-  .close-icon {
-    font-size: 24px;
-    font-weight: 300;
-    line-height: 1;
-    
-  }
+
   
   #acceptBtn:hover,
   #acceptBtn:active {
@@ -1906,6 +1897,7 @@ color: red;
 } 
   
 }
+
 
 
 
