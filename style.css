@@ -1873,7 +1873,7 @@ left: 1%;
 #acceptBtn { background-color: green; color: white; }
 #rejectBtn { background-color: red; color: white; }
 #closeBtn { background-color: #222; color: white; 
-  padding: 1 5px;
+  padding: 0.1 4px;
   border-radius: 75px;
   font-size: 32px;
   font-weight: 100;
@@ -1894,6 +1894,7 @@ color: red;
 } 
   
 }
+
 
 
 
