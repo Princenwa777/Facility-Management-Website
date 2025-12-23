@@ -1842,7 +1842,7 @@ left: 1%;
   margin-bottom: 40px;
   width: 80% !important;
   margin-left: -50px !important;
-  margin-bottom: 3px;
+  margin-bottom: 10px;
   line-height: 20px;  
 }
 
@@ -1867,7 +1867,7 @@ left: 1%;
   position: relative;
   display: flex;
   gap: 10px;
-  bottom: -20px;
+  bottom: 5px;
   left: -70px;
   }
   
@@ -1891,6 +1891,7 @@ color: red;
 } 
   
 }
+
 
 
 
