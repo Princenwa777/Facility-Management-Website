@@ -1830,7 +1830,7 @@ left: 1%;
   bottom: 0;
   left: 0;
   width: 100%;
-  padding: 23px 20px;
+  padding: 19px 20px;
   display: flex;
   gap: 35px;
 }
@@ -1838,9 +1838,10 @@ left: 1%;
 
 .cookie-banner p {
   margin-bottom: 30px;
-  width: 85% !important;
+  width: 82% !important;
   margin-left: 0 !important;
   margin-bottom: 20px;
+  line-height: 3px;
 
   
   
@@ -1863,8 +1864,8 @@ left: 1%;
   position: relative;
   display: flex;
   gap: 10px;
-  bottom: 10px;
-  left: -30px;
+  bottom: 7px;
+  left: -40px;
   }
   
 #acceptBtn { background-color: green; color: white; }
@@ -1887,6 +1888,7 @@ color: red;
 } 
   
 }
+
 
 
 
