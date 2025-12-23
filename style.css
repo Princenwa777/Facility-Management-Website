@@ -1873,10 +1873,10 @@ left: 1%;
 #acceptBtn { background-color: green; color: white; }
 #rejectBtn { background-color: red; color: white; }
 #closeBtn { background-color: #222; color: white; 
-  padding: 1px 8px;
+  padding: 0;
   border-radius: 75px;
-  font-size: 30px;
-  font-weight: 100px;
+  font-size: 32px;
+  font-weight: 100;
   }
 
 
@@ -1894,6 +1894,7 @@ color: red;
 } 
   
 }
+
 
 
 
