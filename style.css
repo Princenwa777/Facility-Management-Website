@@ -1831,7 +1831,7 @@ left: 1%;
   bottom: 0;
   left: 0;
   width: 100%;
-  padding: -13px 20px;
+  padding: -14px 20px;
   display: flex;
   gap: 35px;
   border-top: 1px solid white;
@@ -1840,7 +1840,7 @@ left: 1%;
 
 .cookie-banner p {
   width: 80% !important;
-  margin-left: -69px !important;
+  margin-left: -70px !important;
   margin-bottom: -4px;
   line-height: 20px;  
 }
@@ -1873,9 +1873,10 @@ left: 1%;
 #acceptBtn { background-color: green; color: white; }
 #rejectBtn { background-color: red; color: white; }
 #closeBtn { background-color: #222; color: white; 
-  padding: 5px 10px;
+  padding: 3px 7px;
   border-radius: 75px;
-  font-size: 16px;
+  font-size: 20px;
+  font-weight: 300px;
   }
 
 
@@ -1893,6 +1894,7 @@ color: red;
 } 
   
 }
+
 
 
 
