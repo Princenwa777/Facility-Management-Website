@@ -1450,12 +1450,6 @@ left: 4%;
   border-style:
   }
 
-.close-icon {
-  font-size: 40px;
-  light-height: 1;
-  font-weight: 300;
-}
-
 #acceptBtn:hover {
   background-color: white;
   color: green;
@@ -1894,6 +1888,7 @@ color: red;
 } 
   
 }
+
 
 
 
