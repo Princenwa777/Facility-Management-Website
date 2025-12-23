@@ -1446,17 +1446,15 @@ left: 4%;
 #closeBtn { background-color:  #222; color: white; 
   padding: 8px 16px;
   border-radius: 40px;
-  font-size: 40px;
-  border: 2px;
-  border-color: white;
+  border: 2px solid white;
   }
 
-#acceptBtn: hover {
+#acceptBtn:hover {
   background-color: white;
   color: green;
 }
 
-#rejectBtn: hover {
+#rejectBtn:hover {
   background-color: white;
   color: red;
 } 
@@ -1839,7 +1837,7 @@ left: 1%;
   
 
 .cookie-banner p {
-  margin-bottom: 30px
+  margin-bottom: 30px;
   width: 80% !important;
   margin-left: 0 !important;
   margin-bottom: 20px;
@@ -1874,8 +1872,21 @@ left: 1%;
 #closeBtn { background-color: #222; color: white; 
   padding: 8px 16px;
   border-radius: 45px;}
+
+  #acceptBtn:hover,
+  #acceptBtn:active {
+  background-color: white;
+  color: green;
+}
+
+#rejectBtn:hover, 
+#rejectBtn:active {
+background-color: white;
+color: red;
+} 
   
 }
+
 
 
 
