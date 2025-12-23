@@ -1447,13 +1447,13 @@ left: 4%;
   padding: 8px 16px;
   border-radius: 40px;
   font-size: 40px;
-  border-line: 2px;
+  border: 2px;
   border-color: white;
   }
 
 #acceptBtn: hover {
   background-color: white;
-  color: green
+  color: green;
 }
 
 #rejectBtn: hover {
@@ -1876,6 +1876,7 @@ left: 1%;
   border-radius: 45px;}
   
 }
+
 
 
 
