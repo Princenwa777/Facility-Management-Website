@@ -1446,12 +1446,12 @@ left: 4%;
 #closeBtn { background-color:  #222; color: white; 
   padding: 7px 15px;
   border-radius: 50px;
-  border: 1px white;
+  border: 1px solid white;
   border-style:
   }
 
 .close-icon {
-  font-size: 22px;
+  font-size: 40px;
   light-height: 1;
   font-weight: 300;
 }
@@ -1894,6 +1894,7 @@ color: red;
 } 
   
 }
+
 
 
 
