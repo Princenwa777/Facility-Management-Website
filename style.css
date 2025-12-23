@@ -1416,15 +1416,16 @@ left: 4%;
   width: 560px;
   font-family: Nunito, sans-serif;
   font-size: 14px;
-  font-weight: 400;
-  
-  
-  
+  font-weight: 400;  
 }
 
 .cookie-banner a {
-  color: #00f;
+  color: white;
   text-decoration: underline;
+}
+
+.cookie-banner:hover a {
+  color: green;
 }
 
 .cookie-buttons button {
@@ -1841,18 +1842,19 @@ left: 1%;
   width: 80% !important;
   margin-left: -10px !important;
   margin-bottom: 10px;
-  line-height: 20px;
-
-  
-  
-  
+  line-height: 20px;  
 }
+
 
 .cookie-banner a {
-  color: #00f;
+  color: white;
   text-decoration: underline;
 }
-
+  
+.cookie-banner:hover a,
+  .cookie-banner:active a{
+  color: green;
+}
 .cookie-buttons button {
   font-size: 12px;
   padding: 7px 25px;
@@ -1888,6 +1890,7 @@ color: red;
 } 
   
 }
+
 
 
 
