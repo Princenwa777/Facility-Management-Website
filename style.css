@@ -1448,7 +1448,12 @@ left: 4%;
   padding: 6px 15px;
   border-radius: 60px;
   border: 1px solid white; 
+  font-size: 0;
   }
+.close-icon {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 1;}
 
 #acceptBtn:hover {
   background-color: white;
@@ -1877,7 +1882,7 @@ left: 1%;
 #closeBtn { background-color: #222; color: white; 
   padding: 8px 13px;
   border-radius: 75px;
-  font-size: o;
+  font-size: 0;
   
   }
 
@@ -1901,6 +1906,7 @@ color: red;
 } 
   
 }
+
 
 
 
