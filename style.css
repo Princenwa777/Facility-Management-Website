@@ -1867,20 +1867,20 @@ left: 1%;
   display: flex;
   gap: 10px;
   bottom: 20px;
-  left: -73px;
+  left: -70px;
   line-height: normal;
   }
   
 #acceptBtn { background-color: green; color: white; }
 #rejectBtn { background-color: red; color: white; }
 #closeBtn { background-color: #222; color: white; 
-  width: 10px
-  height: 10px;
+  width: 8px
+  height: 8px;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 55%;  
-  line-height: 0.8px;
+  border-radius: 60%;  
+  line-height: 0.9px;
   }
 
   .close-icon {
@@ -1904,6 +1904,7 @@ color: red;
 } 
   
 }
+
 
 
 
