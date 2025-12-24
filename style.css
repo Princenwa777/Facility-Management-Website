@@ -1875,16 +1875,16 @@ left: 1%;
 #rejectBtn { background-color: red; color: white; }
 #closeBtn { background-color: #222; color: white; 
   padding: 5px 15px;
-  width: 36px
-  height: 36px;
+  width: 33px
+  height: 33px;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 50%;          
+  border-radius: 55%;          
   }
 
   .close-icon {
-    transform: translatey(-1px);
+    transform: translatey(-1.5px);
     font-weight: 100;
     display: block;
     line-height: 1;
@@ -1906,6 +1906,7 @@ color: red;
 } 
   
 }
+
 
 
 
