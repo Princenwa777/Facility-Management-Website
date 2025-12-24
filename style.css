@@ -1446,9 +1446,17 @@ left: 4%;
 #rejectBtn { background-color: red; color: white;  transition: background-color 0.15s, color 0.15s }
 #closeBtn { background-color:  #222; color: white; 
   padding: 6px 15px;
-  border-radius: 60px;
-  border: 1px solid white; 
+  border: 1px solid white;
+  position: relative;
+  left: 10px;
   }
+
+.close-icon {
+  font-size: 32px;
+  font-weight: 100;
+  border-radius: 70%;
+  
+}
 
 #acceptBtn:hover {
   background-color: white;
@@ -1879,8 +1887,8 @@ left: 1%;
   justify-content: center;
   border-radius: 60%;
   position: relative;
-  bottom: 20px;
-  left: -80px;
+  bottom: 60px;
+  left: -100px;
            
   }
 
@@ -1905,6 +1913,7 @@ color: red;
 } 
   
 }
+
 
 
 
