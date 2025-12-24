@@ -1445,16 +1445,16 @@ left: 4%;
 #acceptBtn { background-color: green; color: white; transition: background-color 0.15s, color 0.15s }
 #rejectBtn { background-color: red; color: white;  transition: background-color 0.15s, color 0.15s }
 #closeBtn { background-color:  #222; color: white; 
-  padding: 6px 15px;
+  padding: 5px 12px;
   border: 1px solid white;
   position: relative;
-  left: -10px;
+  left: -16px;
   border-radius: 70%;
   }
 
 .close-icon {
-  font-size: 32px;
-  font-weight: 100;
+  font-size: 37px;
+  font-weight: light;
  
   
 }
@@ -1876,20 +1876,20 @@ left: 1%;
   display: flex;
   gap: 10px;
   bottom: 20px;
-  left: -72px;
+  left: -80px;
   }
   
 #acceptBtn { background-color: green; color: white; }
 #rejectBtn { background-color: red; color: white; }
 #closeBtn { background-color: #222; color: white; 
-  padding: 3px 10px;
+  padding: 1px 5px;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 60%;
   position: relative;
-  bottom: 80px;
-  left: -40px;
+  bottom: 87px;
+  left: -20px;
            
   }
 
@@ -1914,6 +1914,7 @@ color: red;
 } 
   
 }
+
 
 
 
