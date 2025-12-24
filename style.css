@@ -1857,7 +1857,7 @@ left: 1%;
 }
 .cookie-buttons button {
   font-size: 12px;
-  padding: 1px 23px;
+  padding: 0px 22px;
   border-radius: 20px;
 
 }
@@ -1878,6 +1878,9 @@ left: 1%;
   border-radius: 80px;
   font-size: 32px;
   font-weight: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   }
 
 
@@ -1895,6 +1898,7 @@ color: red;
 } 
   
 }
+
 
 
 
