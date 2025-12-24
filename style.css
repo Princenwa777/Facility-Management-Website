@@ -1849,7 +1849,7 @@ left: 1%;
 .cookie-banner p {
   width: 80% !important;
   margin-left: -70px !important;
-  margin-bottom: -20px;
+  margin-bottom: -45px;
   line-height: 20px;  
 }
 
@@ -1881,14 +1881,14 @@ left: 1%;
 #acceptBtn { background-color: green; color: white; }
 #rejectBtn { background-color: red; color: white; }
 #closeBtn { background-color: #222; color: white; 
-  padding: 0px 8px;
+  padding: 0px 10px;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 60%;
   position: relative;
-  bottom: 40px;
-  left: 35px;
+  bottom: 42px;
+  left: 37px;
            
   }
 
@@ -1913,6 +1913,7 @@ color: red;
 } 
   
 }
+
 
 
 
