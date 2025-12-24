@@ -1444,7 +1444,7 @@ left: 4%;
 
 #acceptBtn { background-color: green; color: white; transition: background-color 0.15s, color 0.15s }
 #rejectBtn { background-color: red; color: white;  transition: background-color 0.15s, color 0.15s }
-#closeBtn { background-color:  #222; color: white; 
+#closeBtn { background-color:  #222; color: white;  transition: background-color 0.15s, color 0.15s }
   padding: 0px 10px;
   border: 1px solid white;
   position: relative;
@@ -1468,6 +1468,13 @@ left: 4%;
   background-color: white;
   color: red;
 } 
+
+#closeBtn:hover {
+  background-color: white;
+  color: red;
+  
+}
+
 
 
 /* ===== MOBILE RESPONSIVE FIXES ===== */
@@ -1913,8 +1920,16 @@ left: 1%;
 background-color: white;
 color: red;
 } 
+
+
+  #closeBtn:hover,
+  #closeBtn:active {
+  background-color: white;
+  color: red;
   
 }
+}
+
 
 
 
