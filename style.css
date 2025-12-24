@@ -1880,13 +1880,14 @@ left: 1%;
   align-items: center;
   justify-content: center;
   border-radius: 60%;  
-  line-height: 0.9px;
+  line-height: 0.95px;
   }
 
   .close-icon {
     transform: translatey(-2px);
     font-weight: 100;
     font-size: 33px;
+    line-height: 1px !important;
     
   }
 
@@ -1904,6 +1905,7 @@ color: red;
 } 
   
 }
+
 
 
 
