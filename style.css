@@ -1849,7 +1849,7 @@ left: 1%;
 .cookie-banner p {
   width: 80% !important;
   margin-left: -70px !important;
-  margin-bottom: -670px;
+  margin-bottom: -70px;
   line-height: 20px;  
 }
 
@@ -1887,7 +1887,7 @@ left: 1%;
   justify-content: center;
   border-radius: 60%;
   position: relative;
-  bottom: 23px;
+  bottom: 20px;
   left: 37px;
            
   }
@@ -1913,6 +1913,7 @@ color: red;
 } 
   
 }
+
 
 
 
