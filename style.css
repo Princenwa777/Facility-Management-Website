@@ -1882,7 +1882,6 @@ left: 1%;
 
   .close-icon {
     transform: translatey(-1px);
-    line-height: 1;
   }
 
   
@@ -1899,6 +1898,7 @@ color: red;
 } 
   
 }
+
 
 
 
