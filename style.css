@@ -1886,7 +1886,6 @@ left: 1%;
     transform: translatey(-2px);
     font-weight: 100;
     display: block;
-    line-height: 1;
     font-size: 33px;
     
   }
@@ -1905,6 +1904,7 @@ color: red;
 } 
   
 }
+
 
 
 
