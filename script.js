@@ -281,5 +281,29 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
+const banner = document.getElementById("cookieBanner");
+const acceptBtn = document.getElementById("acceptBtn");
+const rejectBtn = document.getElementById("rejectBtn");
+const closeBtn = document.getElementById("closeBtn");
+
+// Show the banner after page loads
+window.addEventListener("load", () => {
+  banner.classList.add("show");
+});
+
+// Button actions
+acceptBtn.addEventListener("click", () => {
+  banner.style.display = "none"; // hide banner
+  // save acceptance to localStorage or cookie if needed
+});
+
+rejectBtn.addEventListener("click", () => {
+  banner.style.display = "none"; // hide banner
+  // save rejection if needed
+});
+
+closeBtn.addEventListener("click", () => {
+  banner.style.display = "none"; // just hide
+});
 
 
