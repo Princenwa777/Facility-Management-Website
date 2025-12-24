@@ -1874,8 +1874,8 @@ left: 1%;
 #acceptBtn { background-color: green; color: white; }
 #rejectBtn { background-color: red; color: white; }
 #closeBtn { background-color: #222; color: white; 
-  width: 20px
-  height: 20px;
+  width: 10px
+  height: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1905,6 +1905,7 @@ color: red;
 } 
   
 }
+
 
 
 
