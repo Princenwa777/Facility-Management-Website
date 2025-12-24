@@ -1874,7 +1874,7 @@ left: 1%;
   position: relative;
   display: flex;
   gap: 10px;
-  bottom: 20px;
+  bottom: -30px;
   left: -80px;
   }
   
