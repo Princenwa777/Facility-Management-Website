@@ -1857,7 +1857,7 @@ left: 1%;
 }
 .cookie-buttons button {
   font-size: 12px;
-  padding: 8px 25px;
+  padding: 5px 22px;
   border-radius: 20px;
 
 }
@@ -1875,8 +1875,8 @@ left: 1%;
 #rejectBtn { background-color: red; color: white; }
 #closeBtn { background-color: #222; color: white; 
   padding: 5px 15px;
-  width: 25px
-  height: 25px;
+  width: 20px
+  height: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1906,6 +1906,7 @@ color: red;
 } 
   
 }
+
 
 
 
