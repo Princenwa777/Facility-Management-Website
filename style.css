@@ -1875,8 +1875,8 @@ left: 1%;
 #rejectBtn { background-color: red; color: white; }
 #closeBtn { background-color: #222; color: white; 
   padding: 5px 15px;
-  width: 33px
-  height: 33px;
+  width: 25px
+  height: 25px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1884,11 +1884,11 @@ left: 1%;
   }
 
   .close-icon {
-    transform: translatey(-1.5px);
+    transform: translatey(-2px);
     font-weight: 100;
     display: block;
     line-height: 1;
-    font-size: 30px;
+    font-size: 33px;
     
   }
 
@@ -1906,6 +1906,7 @@ color: red;
 } 
   
 }
+
 
 
 
