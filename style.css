@@ -1448,16 +1448,14 @@ left: 4%;
   padding: 0px 10px;
   border: 1px solid white;
   position: relative;
-  left: -20px;
+  left: -24px;
   border-radius: 70%;
   }
 
 .close-icon {
   font-size: 37px;
   font-weight: 100;
-  transform: translatey(-2px);
- 
-  
+  transform: translateY(-2px); 
 }
 
 #acceptBtn:hover {
@@ -1883,19 +1881,19 @@ left: 1%;
 #acceptBtn { background-color: green; color: white; }
 #rejectBtn { background-color: red; color: white; }
 #closeBtn { background-color: #222; color: white; 
-  padding: 0px 7px;
+  padding: 0px 8px;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 60%;
   position: relative;
   bottom: 89px;
-  left: 20px;
+  left: 35px;
            
   }
 
   .close-icon {
-    transform: translatey(-2px);
+    transform: translateY(-2px);
     font-weight: 100;
     font-size: 30px;
     
@@ -1915,6 +1913,7 @@ color: red;
 } 
   
 }
+
 
 
 
