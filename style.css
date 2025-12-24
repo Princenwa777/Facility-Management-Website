@@ -1879,7 +1879,8 @@ left: 1%;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 55%;          
+  border-radius: 55%;  
+  line-height: 0.5px;
   }
 
   .close-icon {
@@ -1903,6 +1904,7 @@ color: red;
 } 
   
 }
+
 
 
 
