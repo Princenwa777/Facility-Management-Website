@@ -1877,10 +1877,13 @@ left: 1%;
   border-radius: 80px;
   font-size: 32px;
   font-weight: 100;
-  display: block;
            
   }
 
+  .close-icon {
+    transform: translatey(-1px);
+    line-height: 1;
+  }
 
   
   #acceptBtn:hover,
