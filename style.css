@@ -1448,13 +1448,14 @@ left: 4%;
   padding: 6px 15px;
   border: 1px solid white;
   position: relative;
-  left: 10px;
+  left: -10px;
+  border-radius: 70%;
   }
 
 .close-icon {
   font-size: 32px;
   font-weight: 100;
-  border-radius: 70%;
+ 
   
 }
 
@@ -1875,27 +1876,27 @@ left: 1%;
   display: flex;
   gap: 10px;
   bottom: 20px;
-  left: -68px;
+  left: -72px;
   }
   
 #acceptBtn { background-color: green; color: white; }
 #rejectBtn { background-color: red; color: white; }
 #closeBtn { background-color: #222; color: white; 
-  padding: 5px 13px;
+  padding: 3px 10px;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 60%;
   position: relative;
-  bottom: 60px;
-  left: -100px;
+  bottom: 80px;
+  left: -40px;
            
   }
 
   .close-icon {
     transform: translatey(-2px);
     font-weight: 100;
-    font-size: 28px;
+    font-size: 30px;
     
   }
 
@@ -1913,6 +1914,7 @@ color: red;
 } 
   
 }
+
 
 
 
