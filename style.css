@@ -1885,7 +1885,6 @@ left: 1%;
   .close-icon {
     transform: translatey(-2px);
     font-weight: 100;
-    display: block;
     font-size: 33px;
     
   }
@@ -1904,6 +1903,7 @@ color: red;
 } 
   
 }
+
 
 
 
