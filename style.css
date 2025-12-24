@@ -1448,12 +1448,13 @@ left: 4%;
   padding: 0px 10px;
   border: 1px solid white;
   position: relative;
-  left: -24px;
+  left: -26px;
   border-radius: 70%;
+  transform: scale(0.8);
   }
 
 .close-icon {
-  font-size: 37px;
+  font-size: 40px;
   font-weight: 100;
   transform: translateY(-2px); 
 }
@@ -1914,6 +1915,7 @@ color: red;
 } 
   
 }
+
 
 
 
