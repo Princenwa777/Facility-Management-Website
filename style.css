@@ -332,7 +332,7 @@ html {
 
 .badge-overlay {
   position: absolute;        /* overlay on top of slides */
-  bottom: 10%;               /* 10% from bottom of carousel */
+  bottom: 20%;               /* 10% from bottom of carousel */
   right: 5%;                 /* 5% from right edge */
   width: 100px;              /* adjust size as needed */
   height: 100px;
@@ -1953,6 +1953,7 @@ color: red;
   
 }
 }
+
 
 
 
