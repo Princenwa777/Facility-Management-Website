@@ -288,26 +288,25 @@ const acceptBtn = document.getElementById("acceptBtn");
 const rejectBtn = document.getElementById("rejectBtn");
 const closeBtn = document.getElementById("closeBtn");
 
-// Show the banner after page loads
+// Slide up after 1 second (1000ms) delay
 window.addEventListener("load", () => {
-  banner.classList.add("show");
+  setTimeout(() => {
+    banner.classList.add("show");
+  }, 1000); // delay in milliseconds
 });
 
-// Button actions
-acceptBtn.addEventListener("click", () => {
-  banner.classList.remove("show"); // hide banner
-  // save acceptance to localStorage or cookie if needed
-});
+// Function to hide banner smoothly
+function hideBanner() {
+  banner.classList.remove("show"); // slide down
+  setTimeout(() => {
+    banner.style.display = "none"; // remove after animation
+  }, 400); // match CSS transition
+}
 
-rejectBtn.addEventListener("click", () => {
-  banner.classList.remove("show"); // hide banner
-  // save rejection if needed
-});
-
-closeBtn.addEventListener("click", () => {
-  banner.classList.remove("show"); // just hide
-});
-
+// Button interactions
+acceptBtn.addEventListener("click", hideBanner);
+rejectBtn.addEventListener("click", hideBanner);
+closeBtn.addEventListener("click", hideBanner);
 
 
 
