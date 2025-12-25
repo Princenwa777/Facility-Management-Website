@@ -1388,7 +1388,7 @@ left: 4%;
 .scroll-reveal {
   position: relative;
   opacity: 0;               /* invisible at first */
-  transform: translateY(80px); /* start 50px lower */
+  transform: translateY(100px); /* start 100px lower */
   transition: all 0.8s ease-out; /* smooth transition */
 }
 .scroll-reveal.active {
