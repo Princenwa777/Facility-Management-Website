@@ -99,12 +99,8 @@ html {
   transition: color 0.15s;
 }
 
-.hamburger:hover {
-  color: green;
-}
-
 .hamburger:active {
-  color: red;
+  color: green;
 }
 
 
@@ -1957,6 +1953,7 @@ color: red;
   
 }
 }
+
 
 
 
