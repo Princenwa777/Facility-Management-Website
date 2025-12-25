@@ -95,7 +95,19 @@ html {
   background: none;
   border: none;
   cursor: pointer;
+  color: red;
+  transition: color 0.15s;
 }
+
+.hamburger:hover {
+  color: green;
+}
+
+.hamburger:active {
+  color: red;
+}
+
+
 
 /* ===== MOBILE RESPONSIVE FIXES ===== */
 @media screen and (max-width: 768px) {
@@ -1945,6 +1957,7 @@ color: red;
   
 }
 }
+
 
 
 
