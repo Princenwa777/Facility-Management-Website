@@ -1487,7 +1487,10 @@ left: 4%;
 }
 
 
-
+.solve-overflow {
+  max-width: 100%;
+  overflow-x: hidden;
+}
 
 
 /* ===== MOBILE RESPONSIVE FIXES ===== */
@@ -1942,6 +1945,7 @@ color: red;
   
 }
 }
+
 
 
 
