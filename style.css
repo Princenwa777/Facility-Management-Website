@@ -1446,7 +1446,10 @@ left: 4%;
 
 #acceptBtn { background-color: green; color: white; transition: background-color 0.15s, color 0.15s }
 #rejectBtn { background-color: red; color: white;  transition: background-color 0.15s, color 0.15s }
-#closeBtn { background-color:  #222; color: white;  transition: background-color 0.15s, color 0.15s }
+#closeBtn {
+  background-color:  #222; 
+  color: white;  
+  transition: background-color 0.15s, color 0.15s 
   padding: 3px 10px;
   border: 1px solid white;
   position: relative;
@@ -1933,6 +1936,7 @@ color: red;
   
 }
 }
+
 
 
 
