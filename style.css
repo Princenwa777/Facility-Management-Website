@@ -1450,11 +1450,11 @@ left: 4%;
   background-color:  #222; 
   color: white;  
   transition: background-color 0.15s, color 0.15s 
-  padding: 3px 10px;
+  padding: 0;
   border: 1px solid white;
   position: relative;
   left: -26px;
-  border-radius: 70%;
+  border-radius: 50%;
   transform: scale(0.8);
   }
 
@@ -1896,11 +1896,11 @@ left: 1%;
 #acceptBtn { background-color: green; color: white; }
 #rejectBtn { background-color: red; color: white; }
 #closeBtn { background-color: #222; color: white; 
-  padding: 0 10px 0 10px;
+  padding: 0;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 60%;
+  border-radius: 50%;
   position: relative;
   bottom: 20px;
   left: 38px;
@@ -1936,6 +1936,7 @@ color: red;
   
 }
 }
+
 
 
 
