@@ -295,18 +295,19 @@ window.addEventListener("load", () => {
 
 // Button actions
 acceptBtn.addEventListener("click", () => {
-  banner.style.display = "none"; // hide banner
+  banner.classList.remove("show"); // hide banner
   // save acceptance to localStorage or cookie if needed
 });
 
 rejectBtn.addEventListener("click", () => {
-  banner.style.display = "show"; // hide banner
+  banner.classList.remove("show"); // hide banner
   // save rejection if needed
 });
 
 closeBtn.addEventListener("click", () => {
-  banner.style.display = "none"; // just hide
+  banner.classList.remove("show"); // just hide
 });
+
 
 
 
