@@ -300,13 +300,14 @@ acceptBtn.addEventListener("click", () => {
 });
 
 rejectBtn.addEventListener("click", () => {
-  banner.style.display = "none"; // hide banner
+  banner.style.display = "show"; // hide banner
   // save rejection if needed
 });
 
 closeBtn.addEventListener("click", () => {
   banner.style.display = "none"; // just hide
 });
+
 
 
 
