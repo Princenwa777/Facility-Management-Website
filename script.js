@@ -283,30 +283,28 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 
-const banner = document.getElementById("cookieBanner");
-const acceptBtn = document.getElementById("acceptBtn");
-const rejectBtn = document.getElementById("rejectBtn");
-const closeBtn = document.getElementById("closeBtn");
+document.addEventListener("DOMContentLoaded", () => {
+  const banner = document.getElementById("cookieBanner");
+  const acceptBtn = document.getElementById("acceptBtn");
+  const rejectBtn = document.getElementById("rejectBtn");
+  const closeBtn = document.getElementById("closeBtn");
 
-// Slide up after 1 second (1000ms) delay
-window.addEventListener("load", () => {
   setTimeout(() => {
     banner.classList.add("show");
-  }, 1000); // delay in milliseconds
+  }, 1000);
+
+  function hideBanner() {
+    banner.classList.remove("show");
+    setTimeout(() => {
+      banner.style.display = "none";
+    }, 400);
+  }
+
+  acceptBtn.addEventListener("click", hideBanner);
+  rejectBtn.addEventListener("click", hideBanner);
+  closeBtn.addEventListener("click", hideBanner);
 });
 
-// Function to hide banner smoothly
-function hideBanner() {
-  banner.classList.remove("show"); // slide down
-  setTimeout(() => {
-    banner.style.display = "none"; // remove after animation
-  }, 400); // match CSS transition
-}
-
-// Button interactions
-acceptBtn.addEventListener("click", hideBanner);
-rejectBtn.addEventListener("click", hideBanner);
-closeBtn.addEventListener("click", hideBanner);
 
 
 
