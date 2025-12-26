@@ -1529,9 +1529,15 @@ left: 4%;
 }
 
 .badge-overlay {
-  bottom: -24%;                     
+  bottom: -20%;                     
 }
 
+  .badge-container {
+ position: relative;
+ bottom: 20px;
+}
+  
+}
 .house-hold-name {
   width: 300px;
   line-height: 30px;
@@ -1959,6 +1965,7 @@ color: red;
   
 }
 }
+
 
 
 
