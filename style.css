@@ -364,7 +364,7 @@ html {
   display: inline-block;
   transform: scale(1.8);
   transform-origin: center center;
-  bottom: 20px;
+  bottom: 30px;
 }
 
 .ribbon-left,
@@ -1954,6 +1954,7 @@ color: red;
   
 }
 }
+
 
 
 
