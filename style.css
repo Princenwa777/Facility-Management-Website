@@ -362,9 +362,8 @@ html {
 .badge-wrapper {
   position: relative;
   display: inline-block;
-  transform: scale(1.8);
+  transform: scale(1.8) translateY(-20px);
   transform-origin: center center;
-  bottom: 30px;
 }
 
 .ribbon-left,
@@ -1954,6 +1953,7 @@ color: red;
   
 }
 }
+
 
 
 
