@@ -95,8 +95,12 @@ html {
   background: none;
   border: none;
   cursor: pointer;
-  color: green;
+  color: red;
   transition: color 0.15s;
+}
+
+.hamburger:hover {
+  color: green;
 }
 
 .hamburger:active {
@@ -329,6 +333,7 @@ html {
   opacity: 1;
 }
 
+
 @media screen and (min-width: 1025px) {
 .badge-container {
  position: relative;
@@ -338,7 +343,7 @@ html {
 
 .badge-overlay {
   position: absolute;        /* overlay on top of slides */
-  bottom: 10px;               /* 10px from bottom of carousel */
+  bottom: 10%;               /* 10% from bottom of carousel */
   right: 5%;                 /* 5% from right edge */
   width: 100px;              /* adjust size as needed */
   height: 100px;
@@ -368,7 +373,7 @@ html {
 .badge-wrapper {
   position: relative;
   display: inline-block;
-  transform: scale(1.8) translateY(-20px);
+  transform: scale(1.8);
   transform-origin: center center;
 }
 
@@ -1435,7 +1440,7 @@ left: 4%;
 
 .cookie-banner p {
   margin-left: 250px;
-  width: 550px;
+  width: 560px;
   font-family: Nunito, sans-serif;
   font-size: 14px;
   font-weight: 400;  
@@ -1475,11 +1480,13 @@ left: 4%;
   position: relative;
   left: -26px;
   border-radius: 50%;
+  transform: scale(0.8);
   }
 
 .close-icon {
   font-size: 40px;
   font-weight: 100;
+  transform: translateY(-2px); 
 }
 
 #acceptBtn:hover {
@@ -1963,6 +1970,7 @@ color: red;
   
 }
 }
+
 
 
 
