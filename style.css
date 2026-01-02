@@ -1435,7 +1435,7 @@ left: 4%;
 
 .cookie-banner p {
   margin-left: 250px;
-  width: 300px;
+  width: 550px;
   font-family: Nunito, sans-serif;
   font-size: 14px;
   font-weight: 400;  
@@ -1475,13 +1475,11 @@ left: 4%;
   position: relative;
   left: -26px;
   border-radius: 50%;
-  transform: scale(0.8);
   }
 
 .close-icon {
   font-size: 40px;
   font-weight: 100;
-  transform: translateY(-2px); 
 }
 
 #acceptBtn:hover {
@@ -1965,6 +1963,7 @@ color: red;
   
 }
 }
+
 
 
 
