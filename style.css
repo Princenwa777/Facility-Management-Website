@@ -337,7 +337,7 @@ html {
 @media screen and (min-width: 1025px) {
 .badge-container {
  position: relative;
- bottom: 90px;
+ bottom: 100px;
 }
 }
 
@@ -1931,13 +1931,13 @@ left: 1%;
   border-radius: 50%;
   position: relative;
   bottom: 20px;
-  left: 32px;
+  left: 28px;
   transform: scale(0.8);
            
   }
 
   .close-icon {
-    transform: translateY(-2px);
+    transform: translateY(-1px);
     font-weight: 100;
     font-size: 30px;
     
@@ -1964,6 +1964,7 @@ color: red;
   
 }
 }
+
 
 
 
