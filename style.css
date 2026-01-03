@@ -1920,8 +1920,8 @@ left: 1%;
 #acceptBtn { background-color: green; color: white; }
 #rejectBtn { background-color: red; color: white; }
 #closeBtn { background-color: #222; color: white; 
-  width: 35px;
-  height: 35px;
+  width: 37px;
+  height: 37px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1962,6 +1962,7 @@ color: red;
   
 }
 }
+
 
 
 
