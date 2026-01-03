@@ -1934,7 +1934,8 @@ left: 1%;
 
   .close-icon {
     font-weight: 100;
-    font-size: 28px;
+    font-size: 30px;
+    transform: translateY(-2px);
     
   }
 
@@ -1959,6 +1960,7 @@ color: red;
   
 }
 }
+
 
 
 
