@@ -1914,7 +1914,7 @@ left: 1%;
   display: flex;
   gap: 10px;
   bottom: -50px;
-  left: -80px;
+  left: -88px;
   }
   
 #acceptBtn { background-color: green; color: white; }
@@ -1927,7 +1927,7 @@ left: 1%;
   border-radius: 50%;
   position: relative;
   bottom: 20px;
-  left: 30px;
+  left: 35px;
   transform: scale(0.8);
            
   }
@@ -1959,6 +1959,7 @@ color: red;
   
 }
 }
+
 
 
 
