@@ -1936,8 +1936,7 @@ left: 1%;
     position: absolute;
     font-weight: 100;
     font-size: 30px;
-    transform: translateY(-10px);
-    bottom: 4px;
+    bottom: -2px;
     
   }
 
@@ -1962,6 +1961,7 @@ color: red;
   
 }
 }
+
 
 
 
