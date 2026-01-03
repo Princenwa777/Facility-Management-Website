@@ -1926,8 +1926,8 @@ left: 1%;
   justify-content: center;
   border-radius: 50%;
   position: relative;
-  bottom: 20px;
-  left: 32px;
+  bottom: 18px;
+  left: 28px;
   transform: scale(0.8);
            
   }
@@ -1960,6 +1960,7 @@ color: red;
   
 }
 }
+
 
 
 
