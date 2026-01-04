@@ -1938,6 +1938,7 @@ left: 1%;
     font-weight: 100;
     font-size: 38px;
     display: block;
+    line-height: 38px;
     
   }
 
@@ -1962,6 +1963,7 @@ color: red;
   
 }
 }
+
 
 
 
