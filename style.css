@@ -1939,7 +1939,7 @@ left: 1%;
     font-size: 38px;
     light-height: 1;
     display: block;
-    transform: translateY(0);
+    transform: translateY(-1px);
     
   }
 
@@ -1964,6 +1964,7 @@ color: red;
   
 }
 }
+
 
 
 
