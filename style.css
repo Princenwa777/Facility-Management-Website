@@ -1939,6 +1939,8 @@ left: 1%;
     font-size: 38px;
     display: block;
     line-height: 38px;
+    position: relative;
+    top: -2px;
     
   }
 
@@ -1963,6 +1965,7 @@ color: red;
   
 }
 }
+
 
 
 
